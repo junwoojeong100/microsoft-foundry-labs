@@ -87,7 +87,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
 
    ![에이전트 기본 설정](./assets/03-03-agent-basic-settings.png)
 
-5. **에이전트 테스트**
+4. **에이전트 테스트**
 
    **Chat 탭에서 다음 질문들을 테스트해봅니다:**
 
@@ -110,7 +110,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    
    ![Chat 탭에서 테스트](./assets/03-05-agent-chat-test.png)
 
-6. **추가 탭 탐색**
+5. **추가 탭 탐색**
 
    **YAML 탭**:
    - 에이전트 설정을 YAML 형식으로 확인
@@ -143,7 +143,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    
    ![Monitor 탭 화면](./assets/03-09-agent-monitor.png)
 
-7. **에이전트 저장**
+6. **에이전트 저장**
    - **Save** 버튼을 클릭하여 에이전트를 저장합니다.
 
 ### ✅ 확인 사항
@@ -252,7 +252,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
 1. **새 에이전트 생성**
    ```
    Agent name: WebSearchAgent
-   Model: gpt-5.1  --> 4.1 (테스트중에 발견함, 4.1에서 정상 동작함, 나중에 수정 필요)
+   Model: gpt-4.1
    ```
    
    **Instructions 설정**
@@ -270,7 +270,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    
    ![WebSearchAgent 생성](./assets/03-18-websearch-create.png)
 
-3. **Web Search Tool 추가**
+2. **Web Search Tool 추가**
 
    - **Tools** 섹션에서 **+ Add** 버튼을 클릭합니다.
    - **Web search** 옵션을 선택합니다.
@@ -278,7 +278,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    
    ![Web search 도구 추가](./assets/03-20-websearch-add-tool.png)
 
-4. **에이전트 테스트**
+3. **에이전트 테스트**
 
    **Chat 탭에서 최신 정보 질문을 테스트합니다:**
 
@@ -299,7 +299,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    
    ![WebSearchAgent 테스트](./assets/03-21-websearch-chat-test.png)
 
-5. **Traces 분석**
+4. **Traces 분석**
 
    - **Traces** 탭에서 웹 검색 과정 확인:
      - 검색 쿼리
@@ -309,7 +309,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    
    ![Web Search Traces 확인](./assets/03-22-websearch-traces.png)
 
-6. **에이전트 저장**
+5. **에이전트 저장**
    - **Save** 버튼을 클릭합니다.
 
 ### 💡 Web Search 활용 팁
@@ -380,7 +380,9 @@ az login --tenant <tenant-id>
 
 #### 2. Python SDK를 사용한 호출
 
-`invokeAgent.py` 파일을 생성합니다:
+> 💡 **실습 팁**: 아래 코드는 참고용입니다. 실제 실습 시에는 이 저장소의 루트 경로에 있는 `invokeAgent.py` 파일을 열어 `FOUNDRY_ENDPOINT`와 `AGENT_NAME` 값을 본인 환경에 맞게 수정한 후 실행하세요.
+
+`invokeAgent.py` 파일 예시:
 
 ```python
 # Azure AI Foundry Agent Invocation using Activity Protocol

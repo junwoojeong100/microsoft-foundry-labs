@@ -59,10 +59,11 @@ Microsoft Foundry의 핵심 기능을 실습을 통해 학습하는 워크샵입
 - 에이전트 배포 및 호출
 
 ### [04. Foundry IQ](./04-foundry-iq.md)
+- Foundry IQ 개요
 - AI Search 연결
 - Knowledge Base 생성 (AI Search Index)
 - Knowledge Base 생성 (Blob Storage)
-- 지식 기반 에이전트 통합
+- KnowledgeAgent 통합
 
 ### [05. 워크플로우](./05-workflows.md)
 - Sequential Workflow 구축

@@ -324,7 +324,13 @@ Microsoft Foundry와 AI Search 간의 권한을 설정합니다.
 
    [샘플 데이터 링크](https://github.com/Azure-Samples/azure-search-sample-data/tree/main/health-plan)
 
-   위 링크에 있는 모든 PDF파일을 PDF로 Container에 업로드합니다.
+   위 링크에서 다음 PDF 파일들을 다운로드하여 Container에 업로드합니다:
+   - `Benefit_Options.pdf`
+   - `employee_handbook.pdf`
+   - `Northwind_Health_Plus_Benefits_Details.pdf`
+   - `Northwind_Standard_Benefits_Details.pdf`
+   - `PerksPlus.pdf`
+   - `role_library.pdf`
    
    ![샘플 데이터 업로드](./assets/04-10-container-upload.png)
 

@@ -253,7 +253,9 @@ Instructions:
 
 2. **Python SDK로 호출**
 
-   `invokeWorkflow.py` 파일을 생성합니다:
+   > 💡 **실습 팁**: 아래 코드는 참고용입니다. 실제 실습 시에는 이 저장소의 루트 경로에 있는 `invokeWorkflow.py` 파일을 열어 `PROJECT_ENDPOINT`와 `WORKFLOW_NAME` 값을 본인 환경에 맞게 수정한 후 실행하세요.
+
+   `invokeWorkflow.py` 파일 예시:
 
    ```python
    # Azure AI Foundry Workflow Invocation using Foundry SDK
