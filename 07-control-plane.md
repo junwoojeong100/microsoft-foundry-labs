@@ -599,23 +599,6 @@ PTU 권장 시나리오:
 
 ![All Projects 목록](./assets/07-20-admin-projects.png)
 
-```
-┌───────────────────────────────────────────────────────────────────┐
-│  All Projects                                                      │
-├──────────────┬─────────────────┬──────────────┬─────────┬─────────┤
-│ Name         │ Parent Resource │ Subscription │ Region  │ Status  │
-├──────────────┼─────────────────┼──────────────┼─────────┼─────────┤
-│ ignite2025   │ ignite2025-hub  │ Production   │ East US │ Active  │
-│   -001       │                 │              │    2    │         │
-├──────────────┼─────────────────┼──────────────┼─────────┼─────────┤
-│ dev-project  │ dev-hub         │ Development  │ West US │ Active  │
-│              │                 │              │    2    │         │
-├──────────────┼─────────────────┼──────────────┼─────────┼─────────┤
-│ test-project │ test-hub        │ Test         │ East US │ Active  │
-│              │                 │              │         │         │
-└──────────────┴─────────────────┴──────────────┴─────────┴─────────┘
-```
-
 **프로젝트 생명주기**:
 ```
 Development → Test → Staging → Production
@@ -640,7 +623,7 @@ Development → Test → Staging → Production
 │  AI Gateway Configuration                                  │
 ├────────────────────────────────────────────────────────────┤
 │  Gateway Endpoint:                                         │
-│  https://gateway.ignite2025.ai                             │
+│  https://gateway.foundry.ai                                │
 │                                                            │
 │  Features:                                                 │
 │  ✓ Authentication & Authorization                          │
