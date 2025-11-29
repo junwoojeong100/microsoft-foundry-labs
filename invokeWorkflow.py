@@ -5,7 +5,7 @@ from azure.ai.projects import AIProjectClient
 from azure.ai.projects.models import ResponseStreamEventType
 
 # Project configuration
-PROJECT_ENDPOINT = "https://foundry-junwoojeong.services.ai.azure.com/api/projects/proj-default"
+PROJECT_ENDPOINT = "https://foundry-junwoo.services.ai.azure.com/api/projects/proj-default"
 WORKFLOW_NAME = "Sequential-Workflow"
 WORKFLOW_VERSION = "1"  # Update this if you have a different version
 
