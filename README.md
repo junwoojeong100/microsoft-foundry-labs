@@ -2,6 +2,8 @@
 
 Microsoft Foundry의 핵심 기능을 실습을 통해 학습하는 워크샵입니다. 이 워크샵에서는 모델 배포, 에이전트 생성, 지식 기반 구축, 워크플로우 설계 등 Foundry의 주요 기능들을 단계별로 경험할 수 있습니다.
 
+> 🌏 **Language / 언어**: [한국어 가이드](./README.md) | [English Guide](./en/README.md)
+
 ## 📚 워크샵 개요
 
 이 워크샵은 Microsoft Foundry의 새로운 포털을 사용하여 다음 내용을 다룹니다:

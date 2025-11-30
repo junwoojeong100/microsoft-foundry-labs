@@ -2,6 +2,8 @@
 
 A hands-on workshop to learn Microsoft Foundry's core features through practical exercises. This workshop provides step-by-step experience with key Foundry functionalities, including model deployment, agent creation, knowledge base construction, and workflow design.
 
+> 🌏 **Language / 언어**: [한국어 가이드](../README.md) | [English Guide](./README.md)
+
 ## 📚 Workshop Overview
 
 This workshop covers the following topics using Microsoft Foundry's new portal:
