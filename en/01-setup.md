@@ -139,8 +139,8 @@ The new Foundry portal offers an enhanced user interface with improved usability
 ## 📚 Additional Resources
 
 - [Microsoft Foundry Documentation](https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-azure-ai-foundry?view=foundry)
-- [Azure Resource Manager Overview](https://learn.microsoft.com/azure/azure-resource-manager/management/overview)
-- [Azure Regions and Availability Zones](https://learn.microsoft.com/azure/reliability/availability-zones-overview)
+- [Azure Resource Manager Overview](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/overview)
+- [Azure Regions and Availability Zones](https://learn.microsoft.com/en-us/azure/reliability/availability-zones-overview)
 
 ---
 
