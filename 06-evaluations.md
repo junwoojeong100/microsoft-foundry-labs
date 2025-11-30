@@ -68,7 +68,7 @@ Foundry는 다음을 자동화합니다:
 
 1. **Evaluations 섹션 이동**
 
-   - Foundry 포털 좌측 메뉴에서 **Build**를 선택합니다.
+   - Foundry 포털 우측 상단 메뉴에서 **Build**를 선택합니다.
    - **Evaluations** 메뉴를 클릭합니다.
    
    ![Build > Evaluations 메뉴](./assets/06-01-evaluations-menu.png)

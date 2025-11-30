@@ -68,7 +68,7 @@ Let's evaluate the previously created `ModelRouterAgent`.
 
 1. **Navigate to Evaluations Section**
 
-   - Select **Build** from the left menu in the Foundry portal.
+   - Select **Build** from the top right menu in the Foundry portal.
    - Click the **Evaluations** menu.
    
    ![Build > Evaluations menu](../assets/06-01-evaluations-menu.png)

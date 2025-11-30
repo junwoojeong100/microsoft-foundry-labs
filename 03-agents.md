@@ -60,7 +60,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
 ### 단계별 가이드
 
 1. **Agents 섹션 이동**
-   - Foundry 포털 좌측 메뉴에서 **Build**를 선택합니다.
+   - Foundry 포털 우측 상단 메뉴에서 **Build**를 선택합니다.
    - **Agents** 메뉴를 클릭합니다.
    
    ![Build > Agents 메뉴](./assets/03-01-agents-menu.png)
@@ -130,6 +130,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    - 성능 및 비용 분석
 
    **Tracing 활성화**를 위해서 **App Insigts 생성 및 연결**이 필요합니다.
+   **Agent Tracing**은 Foundry(New)의 **Sweden Central**에서만 가능합니다.
    
    ![Traces 탭 화면 - Connect](./assets/03-08-agent-traces-connect.png)
 

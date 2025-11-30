@@ -60,7 +60,7 @@ Create an agent that intelligently selects models using Model Router.
 ### Step-by-Step Guide
 
 1. **Navigate to Agents Section**
-   - Select **Build** from the left menu in the Foundry portal.
+   - Select **Build** from the top right menu in the Foundry portal.
    - Click the **Agents** menu.
    
    ![Build > Agents menu](../assets/03-01-agents-menu.png)
@@ -130,6 +130,7 @@ Create an agent that intelligently selects models using Model Router.
    - Analyze performance and costs
 
    **Enable Tracing** requires **creating and connecting App Insights**.
+   **Agent tracing** is only available in **Sweden Central** in Foundry (new).
    
    ![Traces tab screen - Connect](../assets/03-08-agent-traces-connect.png)
 

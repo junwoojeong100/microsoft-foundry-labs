@@ -31,7 +31,7 @@ You can explore various AI models in the Discover section of the Foundry portal.
 ### Step-by-Step Guide
 
 1. **Navigate to Discover Section**
-   - Click **Discover** in the left menu of the Foundry portal.
+   - Click **Discover** in the top right menu of the Foundry portal.
 
    ![Discover > Models menu](../assets/02-00-discover-overview.png)
 

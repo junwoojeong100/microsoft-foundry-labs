@@ -163,7 +163,7 @@ Final output: Printable travel guide
 
 1. **Navigate to Workflows Section**
 
-   - Select **Build** from the left menu in the Foundry portal.
+   - Select **Build** from the top right menu in the Foundry portal.
    - Click the **Workflows** menu.
    
    ![Build > Workflows menu](../assets/05-01-workflows-menu.png)

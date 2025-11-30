@@ -31,7 +31,7 @@ Foundry 포털의 Discover 섹션에서 다양한 AI 모델을 탐색할 수 있
 ### 단계별 가이드
 
 1. **Discover 섹션 이동**
-   - Foundry 포털 좌측 메뉴에서 **Discover**를 클릭합니다.
+   - Foundry 포털 우측 상단 메뉴에서 **Discover**를 클릭합니다.
 
    ![Discover > Models 메뉴](./assets/02-00-discover-overview.png)
 

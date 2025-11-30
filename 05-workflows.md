@@ -163,7 +163,7 @@ Instructions:
 
 1. **Workflows 섹션 이동**
 
-   - Foundry 포털 좌측 메뉴에서 **Build**를 선택합니다.
+   - Foundry 포털 우측 상단 메뉴에서 **Build**를 선택합니다.
    - **Workflows** 메뉴를 클릭합니다.
    
    ![Build > Workflows 메뉴](./assets/05-01-workflows-menu.png)
