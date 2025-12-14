@@ -63,12 +63,12 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    - Foundry 포털 우측 상단 메뉴에서 **Build**를 선택합니다.
    - **Agents** 메뉴를 클릭합니다.
    
-   ![Build > Agents 메뉴](./assets/03-01-agents-menu.png)
+   ![Build > Agents 메뉴](../assets/03-01-agents-menu.png)
 
 2. **새 에이전트 생성**
    - **+ Create agent** 또는 **New agent** 버튼을 클릭합니다.
    
-   ![Create agent 버튼](./assets/03-02-create-agent.png)
+   ![Create agent 버튼](../assets/03-02-create-agent.png)
 
 3. **Playground에서 구성**
    ```
@@ -85,7 +85,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    
    **Save** 버튼을 클릭하여 저장합니다.
 
-   ![에이전트 기본 설정](./assets/03-03-agent-basic-settings.png)
+   ![에이전트 기본 설정](../assets/03-03-agent-basic-settings.png)
 
 4. **에이전트 테스트**
 
@@ -108,7 +108,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    ```
    → 복잡한 문서 생성 요청이므로 고성능 모델 사용
    
-   ![Chat 탭에서 테스트](./assets/03-05-agent-chat-test.png)
+   ![Chat 탭에서 테스트](../assets/03-05-agent-chat-test.png)
 
 5. **추가 탭 탐색**
 
@@ -116,13 +116,13 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    - 에이전트 설정을 YAML 형식으로 확인
    - Infrastructure as Code로 관리 가능
    
-   ![YAML 탭 화면](./assets/03-06-agent-yaml.png)
+   ![YAML 탭 화면](../assets/03-06-agent-yaml.png)
    
    **Code 탭**:
    - 에이전트를 코드로 호출하는 샘플 확인
    - Python, JavaScript, C# 등 다양한 언어 지원
    
-   ![Code 탭 화면](./assets/03-07-agent-code.png)
+   ![Code 탭 화면](../assets/03-07-agent-code.png)
 
    **Traces 탭**:
    - 에이전트 실행 과정 추적
@@ -132,19 +132,19 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    **Tracing 활성화**를 위해서 **App Insigts 생성 및 연결**이 필요합니다.
    **Agent Tracing**은 Foundry(New)의 **Sweden Central**에서만 가능합니다.
    
-   ![Traces 탭 화면 - Connect](./assets/03-08-agent-traces-connect.png)
+   ![Traces 탭 화면 - Connect](../assets/03-08-agent-traces-connect.png)
 
-   ![Traces 탭 화면 - Create](./assets/03-08-agent-traces-create.png)
+   ![Traces 탭 화면 - Create](../assets/03-08-agent-traces-create.png)
 
-   ![Traces 탭 화면 - Traces](./assets/03-08-agent-traces.png)
+   ![Traces 탭 화면 - Traces](../assets/03-08-agent-traces.png)
 
-   ![Traces 탭 화면 - Traces - Details](./assets/03-08-agent-traces-details.png)
+   ![Traces 탭 화면 - Traces - Details](../assets/03-08-agent-traces-details.png)
 
    **Monitor 탭**:
    - 실시간 메트릭 모니터링
    - 에러율, 응답 시간 등 확인
    
-   ![Monitor 탭 화면](./assets/03-09-agent-monitor.png)
+   ![Monitor 탭 화면](../assets/03-09-agent-monitor.png)
 
 6. **에이전트 저장**
    - **Save** 버튼을 클릭하여 에이전트를 저장합니다.
@@ -184,7 +184,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    
    **Save** 버튼을 클릭하여 저장합니다.
 
-   ![FileSearchAgent 생성](./assets/03-10-filesearch-create.png)
+   ![FileSearchAgent 생성](../assets/03-10-filesearch-create.png)
 
 3. **File Search Tool 추가**
 
@@ -193,18 +193,18 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    - **File Search** 옵션을 선택합니다.
    - File Search가 Tools 목록에 추가되었는지 확인합니다.
    
-   ![File Search 도구 선택](./assets/03-13-filesearch-tool-selection.png)
+   ![File Search 도구 선택](../assets/03-13-filesearch-tool-selection.png)
 
 4. **파일 업로드**
 
    - **Tools > File Search** 섹션에서 **Attach files** 버튼을 클릭합니다.
    
-   ![Attach files 버튼](./assets/03-14-filesearch-attach-files.png)
+   ![Attach files 버튼](../assets/03-14-filesearch-attach-files.png)
    
    - `knowledge-base.json` 파일을 업로드합니다.
    - 파일이 정상적으로 업로드되었는지 확인합니다.
    
-   ![파일 업로드 완료](./assets/03-15-filesearch-file-uploaded.png)
+   ![파일 업로드 완료](../assets/03-15-filesearch-file-uploaded.png)
 
 5. **에이전트 저장**
    - **Save** 버튼을 클릭합니다.
@@ -228,16 +228,16 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    ```
    예상 답변: 제주 중문색달해변
    
-   ![FileSearchAgent 테스트](./assets/03-16-filesearch-chat-test.png)
+   ![FileSearchAgent 테스트](../assets/03-16-filesearch-chat-test.png)
 
 7. **Traces 확인**
 
    - **Traces** 탭에서 File Search가 어떻게 작동했는지 확인합니다.
    - 검색된 문서 조각(chunks)과 관련성 점수를 확인할 수 있습니다.
    
-   ![File Search Traces 확인](./assets/03-17-filesearch-traces.png)
+   ![File Search Traces 확인](../assets/03-17-filesearch-traces.png)
 
-   ![File Search Traces 확인](./assets/03-17-filesearch-traces-2.png)
+   ![File Search Traces 확인](../assets/03-17-filesearch-traces-2.png)
 
 ### ✅ 확인 사항
 
@@ -272,7 +272,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    5. 검색 결과가 불충분하면 추가 검색을 수행하세요
    ```
    
-   ![WebSearchAgent 생성](./assets/03-18-websearch-create.png)
+   ![WebSearchAgent 생성](../assets/03-18-websearch-create.png)
 
 2. **Web Search Tool 추가**
 
@@ -280,7 +280,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    - **Web search** 옵션을 선택합니다.
    - Web Search가 활성화되었는지 확인합니다.
    
-   ![Web search 도구 추가](./assets/03-20-websearch-add-tool.png)
+   ![Web search 도구 추가](../assets/03-20-websearch-add-tool.png)
 
 3. **에이전트 저장**
    - **Save** 버튼을 클릭합니다.
@@ -304,7 +304,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
    ```
    → 비교 분석 및 장점 설명
    
-   ![WebSearchAgent 테스트](./assets/03-21-websearch-chat-test.png)
+   ![WebSearchAgent 테스트](../assets/03-21-websearch-chat-test.png)
 
 5. **Traces 분석**
 
@@ -314,9 +314,9 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
      - 추출된 정보
      - 최종 응답 생성 과정
    
-   ![Web Search Traces 확인](./assets/03-22-websearch-traces.png)
+   ![Web Search Traces 확인](../assets/03-22-websearch-traces.png)
 
-   ![Web Search Traces 확인](./assets/03-22-websearch-traces-2.png)
+   ![Web Search Traces 확인](../assets/03-22-websearch-traces-2.png)
 
 ### 💡 Web Search 활용 팁
 
@@ -346,19 +346,19 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
      - **Preview agent**: 웹 인터페이스로 에이전트 미리보기
      - **View sample app code**: 샘플 애플리케이션 코드 확인
    
-   ![Preview 버튼](./assets/03-23-agent-preview-button.png)
+   ![Preview 버튼](../assets/03-23-agent-preview-button.png)
 
-   ![Preview](./assets/03-23-agent-preview.png)
+   ![Preview](../assets/03-23-agent-preview.png)
 
 2. **Publish 실행**
 
    - **Publish agent** 버튼을 클릭합니다.
    
-   ![Publish agent 버튼 클릭](./assets/03-24-agent-publish-agent.png)
+   ![Publish agent 버튼 클릭](../assets/03-24-agent-publish-agent.png)
 
    - **Publish** 버튼을 클릭합니다.
    
-   ![Publish 버튼 클릭](./assets/03-24-agent-publish.png)
+   ![Publish 버튼 클릭](../assets/03-24-agent-publish.png)
    
    - 게시 설정 확인:
      ```
@@ -367,7 +367,7 @@ Model Router를 활용하여 지능적으로 모델을 선택하는 에이전트
      Endpoint: [자동 생성된 엔드포인트]
      ```
    
-   ![게시 완료 확인](./assets/03-25-agent-published.png)
+   ![게시 완료 확인](../assets/03-25-agent-published.png)
 
 ### 에이전트 호출하기
 
@@ -439,7 +439,7 @@ Foundry 포털에서 엔드포인트 정보를 확인하는 방법:
    - Activity Protocol endpoint
    - Response API endpoint
 
-![Endpoint 정보 확인](./assets/03-26-agent-endpoint.png)
+![Endpoint 정보 확인](../assets/03-26-agent-endpoint.png)
 
 #### 4. 실행
 

@@ -72,11 +72,11 @@ Foundry IQ를 사용하기 위해 먼저 Azure AI Search 리소스를 연결해�
 
    - Foundry 포털에서 **Foundry IQ** 섹션으로 이동합니다.
    
-   ![Foundry IQ 섹션](./assets/04-01-foundry-iq-menu.png)
+   ![Foundry IQ 섹션](../assets/04-01-foundry-iq-menu.png)
    
    - **Connect to an AI Search resource to get started** 메시지가 표시됩니다.
    
-   ![Connect to AI Search resource 메시지](./assets/04-02-foundry-iq-connect.png)
+   ![Connect to AI Search resource 메시지](../assets/04-02-foundry-iq-connect.png)
    
    - **Create new resource** 버튼을 클릭합니다.
 
@@ -91,7 +91,7 @@ Foundry IQ를 사용하기 위해 먼저 Azure AI Search 리소스를 연결해�
    Pricing tier: Basic
    ```
    
-   ![Search Service 생성 설정](./assets/04-04-ai-search-settings.png)
+   ![Search Service 생성 설정](../assets/04-04-ai-search-settings.png)
 
    **Pricing Tier 선택 가이드**:
    - **Free**: 테스트용, 50MB, 3 인덱스 (구독당 1개만 가능)
@@ -99,7 +99,7 @@ Foundry IQ를 사용하기 위해 먼저 Azure AI Search 리소스를 연결해�
    - **Standard**: 프로덕션, 512GB+, 50 인덱스
    - **Storage Optimized**: 대용량 데이터, 2TB+
    
-   ![Pricing tier 선택 화면](./assets/04-05-ai-search-pricing-tiers.png)
+   ![Pricing tier 선택 화면](../assets/04-05-ai-search-pricing-tiers.png)
 
 3. **컴퓨팅 설정**
 
@@ -124,7 +124,7 @@ AI Search가 Foundry 리소스에 접근할 수 있도록 Managed Identity를 �
    - Azure Portal에서 생성된 Search Service를 엽니다.
    - 좌측 메뉴에서 **Settings > Identity**를 선택합니다.
    
-   ![Managed Identity 설정](./assets/04-06-ai-search-identity.png)
+   ![Managed Identity 설정](../assets/04-06-ai-search-identity.png)
 
 2. **System Assigned Identity 활성화**
 
@@ -135,7 +135,7 @@ AI Search가 Foundry 리소스에 접근할 수 있도록 Managed Identity를 �
    - **Save** 버튼을 클릭합니다.
    - Object ID가 생성되었는지 확인합니다.
 
-   ![Managed Identity 활성화](./assets/04-06-ai-search-identity-enable.png)
+   ![Managed Identity 활성화](../assets/04-06-ai-search-identity-enable.png)
 
 ### Foundry에 AI Search 연결
 
@@ -148,14 +148,14 @@ AI Search가 Foundry 리소스에 접근할 수 있도록 Managed Identity를 �
    - **Select a resource** 또는 **Connect** 버튼을 클릭합니다.
    - 드롭다운에서 생성한 Search Service를 선택합니다.
 
-   ![AI Search 연결](./assets/04-07-foundry-iq-connect.png)
+   ![AI Search 연결](../assets/04-07-foundry-iq-connect.png)
 
 3. **연결 완료**
 
    - **Connect** 버튼을 클릭합니다.
    - 연결이 성공하면 Foundry IQ 대시보드가 활성화됩니다.
    
-   ![AI Search 연결 완료](./assets/04-07-foundry-iq-connected.png)
+   ![AI Search 연결 완료](../assets/04-07-foundry-iq-connected.png)
 
 ### ✅ 확인 사항
 
@@ -175,11 +175,11 @@ AI Search가 Foundry 리소스에 접근할 수 있도록 Managed Identity를 �
 
    - Azure Portal에서 **Storage accounts**를 검색합니다.
 
-   ![Storage Accounts](./assets/04-08-storage-account.png)
+   ![Storage Accounts](../assets/04-08-storage-account.png)
 
    - **+ Create** 버튼을 클릭합니다.
    
-   ![Storage Account 생성 버튼](./assets/04-08-storage-create-button.png)
+   ![Storage Account 생성 버튼](../assets/04-08-storage-create-button.png)
 
    ```
    Resource group: foundry
@@ -190,7 +190,7 @@ AI Search가 Foundry 리소스에 접근할 수 있도록 Managed Identity를 �
    Performance: Standard
    Redundancy: Locally-redundant storage (LRS)
    ```
-   ![Storage Account 생성](./assets/04-08-storage-create.png)
+   ![Storage Account 생성](../assets/04-08-storage-create.png)
 
    - **Review + create** > **Create**를 클릭합니다.
 
@@ -200,7 +200,7 @@ AI Search가 Foundry 리소스에 접근할 수 있도록 Managed Identity를 �
    - 좌측 메뉴에서 **Containers**를 선택합니다.
    - **+ Container** 버튼을 클릭합니다.
    
-   ![Container 버튼](./assets/04-09-container-button.png)
+   ![Container 버튼](../assets/04-09-container-button.png)
 
    - **+Add container** 버튼을 클릭합니다.
 
@@ -209,11 +209,11 @@ AI Search가 Foundry 리소스에 접근할 수 있도록 Managed Identity를 �
    Public access level: Private
    ```
 
-   ![Add container 버튼](./assets/04-09-add-container-button.png)
+   ![Add container 버튼](../assets/04-09-add-container-button.png)
 
    - **Create**를 클릭합니다.
 
-   ![Container 생성](./assets/04-09-container-create.png)
+   ![Container 생성](../assets/04-09-container-create.png)
 
 ### IAM 권한 설정
 
@@ -223,11 +223,11 @@ Storage Account와 AI Search 간의 권한을 설정합니다.
 
    - 생성한 Storage Account로 이동합니다.
 
-   ![Storage Account](./assets/04-10-storage-account.png)
+   ![Storage Account](../assets/04-10-storage-account.png)
 
    - **Access Control (IAM)** > **+ Add** > **Add role assignment**를 클릭합니다.
 
-   ![Storage Account IAM 메뉴 Add role assignment](./assets/04-11-storage-iam-add-role-assignment.png)
+   ![Storage Account IAM 메뉴 Add role assignment](../assets/04-11-storage-iam-add-role-assignment.png)
 
    ```
    Role: Storage Blob Data Contributor
@@ -237,15 +237,15 @@ Storage Account와 AI Search 간의 권한을 설정합니다.
 
    - **Storage Blob Data Contributor**를 검색해서 선택하고 "Next" 버튼을 클릭합니다.
 
-   ![Storage Account IAM 메뉴 Role 선택](./assets/04-11-storage-iam-role-select.png)
+   ![Storage Account IAM 메뉴 Role 선택](../assets/04-11-storage-iam-role-select.png)
 
    - **+Select members**를 클릭하고, 본인의 Entra ID 계정을 검색해서 선택하고 "Select" 버튼을 클릭합니다.
 
-   ![Storage Account IAM 메뉴 Members 선택](./assets/04-11-storage-iam-member-select.png)
+   ![Storage Account IAM 메뉴 Members 선택](../assets/04-11-storage-iam-member-select.png)
 
    - **Review + assign**을 클릭합니다.
    
-   ![Storage Blob Data Contributor 역할 할당 (사용자)](./assets/04-12-storage-role-user.png)
+   ![Storage Blob Data Contributor 역할 할당 (사용자)](../assets/04-12-storage-role-user.png)
 
 2. **Storage Blob Data Contributor - Search Service**
 
@@ -264,13 +264,13 @@ Storage Account와 AI Search 간의 권한을 설정합니다.
    - **Assign access to**에서 Managed identity를 선택합니다.
    - **+Select members**를 클릭하고, 사용 중인 구독, Search service, Search service name을 선택하고 "Select" 버튼을 클릭합니다.
 
-   ![Storage Blob Data Contributor 역할 할당 (Search Service) - Managed Identity](./assets/04-13-storage-role-search-managed-identity.png)
+   ![Storage Blob Data Contributor 역할 할당 (Search Service) - Managed Identity](../assets/04-13-storage-role-search-managed-identity.png)
 
    - **Review + assign**을 클릭합니다.
    
-   ![Storage Blob Data Contributor 역할 할당 (Search Service)](./assets/04-13-storage-role-search.png)
+   ![Storage Blob Data Contributor 역할 할당 (Search Service)](../assets/04-13-storage-role-search.png)
 
-   ![Storage Blob Data Contributor 역할 할당 (Search Service)](./assets/04-13-storage-role-search-2.png)
+   ![Storage Blob Data Contributor 역할 할당 (Search Service)](../assets/04-13-storage-role-search-2.png)
 
 
 Microsoft Foundry와 AI Search 간의 권한을 설정합니다.
@@ -279,21 +279,21 @@ Microsoft Foundry와 AI Search 간의 권한을 설정합니다.
 
    - **Microsoft Foundry**로 이동합니다.
 
-   ![Foundry](./assets/04-14-foundry.png)
+   ![Foundry](../assets/04-14-foundry.png)
 
    - **Microsoft Foundry** 리소스로 이동합니다.
 
-   ![Foundry 리소스](./assets/04-14-foundry-resource.png)
+   ![Foundry 리소스](../assets/04-14-foundry-resource.png)
 
    - 생성한 **Foundry 리소스**를 클릭하고 **Access Control (IAM)**를 클릭합니다.
 
-   ![Foundry 리소스 클릭](./assets/04-14-foundry-resource-click.png)
+   ![Foundry 리소스 클릭](../assets/04-14-foundry-resource-click.png)
 
    - **Access Control (IAM)** > **+ Add** > **Add role assignment**
 
    - **Azure AI Project Manager**를 검색해서 선택하고 "Next" 버튼을 클릭합니다.
 
-   ![Foundry 리소스 IAM](./assets/04-14-foundry-iam.png)
+   ![Foundry 리소스 IAM](../assets/04-14-foundry-iam.png)
 
    - **Assign access to**에서 Managed identity를 선택합니다.
    - **+Select members**를 클릭하고, 사용 중인 구독, Search service, Search service name을 선택하고 "Select" 버튼을 클릭합니다.
@@ -307,13 +307,13 @@ Microsoft Foundry와 AI Search 간의 권한을 설정합니다.
      - Select: foundry<Your unique name>
    ```
 
-   ![Foundry 리소스 IAM](./assets/04-14-foundry-iam-2.png)
+   ![Foundry 리소스 IAM](../assets/04-14-foundry-iam-2.png)
 
    - **Review + assign**을 클릭합니다.
    
-   ![Azure AI Project Manager 역할 할당](./assets/04-15-foundry-role-search.png)
+   ![Azure AI Project Manager 역할 할당](../assets/04-15-foundry-role-search.png)
 
-   ![Azure AI Project Manager 역할 할당](./assets/04-15-foundry-role-search-2.png)
+   ![Azure AI Project Manager 역할 할당](../assets/04-15-foundry-role-search-2.png)
 
 
 ### **샘플 데이터 업로드**
@@ -330,9 +330,9 @@ Microsoft Foundry와 AI Search 간의 권한을 설정합니다.
    - `PerksPlus.pdf`
    - `role_library.pdf`
    
-   ![샘플 데이터 업로드](./assets/04-10-container-upload.png)
+   ![샘플 데이터 업로드](../assets/04-10-container-upload.png)
 
-   ![샘플 데이터 업로드](./assets/04-10-container-upload-2.png)
+   ![샘플 데이터 업로드](../assets/04-10-container-upload-2.png)
 
 
 ### Import Data Wizard 실행
@@ -342,17 +342,17 @@ Microsoft Foundry와 AI Search 간의 권한을 설정합니다.
    - Azure Portal에서 생성한 AI Search 를 엽니다.
    - **Import data (new)** 버튼을 클릭합니다.
    
-   ![Import data (new) 버튼](./assets/04-16-import-data-button.png)
+   ![Import data (new) 버튼](../assets/04-16-import-data-button.png)
 
 2. **데이터 소스 선택**
 
    - **Data Source**: Azure Blob Storage
    
-   ![Azure Blob Storage 선택](./assets/04-17-import-data-source.png)
+   ![Azure Blob Storage 선택](../assets/04-17-import-data-source.png)
 
    - **Scenario**: RAG (Retrieval Augmented Generation)
 
-   ![Scenario 선택](./assets/04-17-import-data-source-2.png)
+   ![Scenario 선택](../assets/04-17-import-data-source-2.png)
 
 3. **Azure Blob Storage 구성**
 
@@ -364,7 +364,7 @@ Microsoft Foundry와 AI Search 간의 권한을 설정합니다.
 
    - **Next**를 클릭합니다.
    
-   ![Blob Storage 구성](./assets/04-18-import-blob-config.png)
+   ![Blob Storage 구성](../assets/04-18-import-blob-config.png)
 
 4. **텍스트 벡터화 설정**
 
@@ -379,13 +379,13 @@ Microsoft Foundry와 AI Search 간의 권한을 설정합니다.
    - **Check** 버튼을 클릭하여 연결 확인
    - **Next**를 클릭합니다.
    
-   ![텍스트 벡터화 설정](./assets/04-19-import-vectorize-text.png)
+   ![텍스트 벡터화 설정](../assets/04-19-import-vectorize-text.png)
 
 5. **이미지 벡터화 (선택사항)**
 
    - **Next**를 클릭합니다.
 
-   ![이미지 벡터화](./assets/04-19-image-vectorize.png)
+   ![이미지 벡터화](../assets/04-19-image-vectorize.png)
 
 6. **고급 랭킹 설정**
 
@@ -396,18 +396,18 @@ Microsoft Foundry와 AI Search 간의 권한을 설정합니다.
 
    - Semantic Ranker는 검색 결과의 관련성을 향상시킵니다.
    
-   ![Semantic ranker 설정](./assets/04-20-import-semantic-ranker.png)
+   ![Semantic ranker 설정](../assets/04-20-import-semantic-ranker.png)
 
 7. **검토 및 생성**
 
    - **Create**를 클릭합니다.
    - 인덱싱에는 5-10분 정도 소요됩니다.
    
-   ![Review and create](./assets/04-21-import-review-create.png)
+   ![Review and create](../assets/04-21-import-review-create.png)
 
-   ![Review and create](./assets/04-21-import-review-create-2.png)
+   ![Review and create](../assets/04-21-import-review-create-2.png)
    
-   ![Start Searching](./assets/04-22-start-searching.png)
+   ![Start Searching](../assets/04-22-start-searching.png)
 
 
 ### Knowledge Base 생성
@@ -416,19 +416,19 @@ Microsoft Foundry와 AI Search 간의 권한을 설정합니다.
 
    - Foundry 포털의 **Foundry IQ** 섹션으로 이동합니다.
 
-   ![Foundry IQ](./assets/04-23-foundry-iq.png)
+   ![Foundry IQ](../assets/04-23-foundry-iq.png)
 
 2. **Knowledge Base 생성**
 
    - **Create a knowledge base** 버튼을 클릭합니다.
    - **Azure AI Search Index**를 선택하고 **Connect** 버튼을 클릭합니다.
 
-   ![Knowledge Base 생성](./assets/04-25-knowledge-base-create.png)
+   ![Knowledge Base 생성](../assets/04-25-knowledge-base-create.png)
 
    - **Knowledge source name**의 suffix 숫자를 **100**으로 변경합니다.
    - **Select Azure AI Search Index**를 선택한 후, **Create** 버튼을 클릭합니다.
    
-   ![Create knowledge source](./assets/04-23-knowledge-source-create.png)
+   ![Create knowledge source](../assets/04-23-knowledge-source-create.png)
 
    ```
    Knowledge base name: knowledgebase100
@@ -438,9 +438,9 @@ Microsoft Foundry와 AI Search 간의 권한을 설정합니다.
 
    - 생성된 **Knowledge source**를 확인하고, **Save knowledge base** 버튼을 클릭합니다.
    
-   ![Knowledge Base 설정](./assets/04-24-knowledge-base-settings.png)
+   ![Knowledge Base 설정](../assets/04-24-knowledge-base-settings.png)
 
-   ![Knowledge Base 조회](./assets/04-24-knowledge-base-list.png)
+   ![Knowledge Base 조회](../assets/04-24-knowledge-base-list.png)
 
 ---
 
@@ -458,7 +458,7 @@ Blob Storage를 직접 연결하여 자동 인덱싱되는 Knowledge Base를 생
 
    - **Azure Blob Storage**를 선택하고 **Connect** 버튼을 선택합니다.
 
-   ![Blob Storage 직접 연결](./assets/04-28-blob-knowledge-create.png)
+   ![Blob Storage 직접 연결](../assets/04-28-blob-knowledge-create.png)
 
 3. **Knowledge Source 설정**
 
@@ -472,7 +472,7 @@ Blob Storage를 직접 연결하여 자동 인덱싱되는 Knowledge Base를 생
    Chat completions model: gpt-4.1
    ```
    
-   ![Blob Storage Knowledge Source 설정](./assets/04-29-blob-knowledge-settings.png)
+   ![Blob Storage Knowledge Source 설정](../assets/04-29-blob-knowledge-settings.png)
 
 4. **Create Knowledge Source**
 
@@ -491,11 +491,11 @@ Blob Storage를 직접 연결하여 자동 인덱싱되는 Knowledge Base를 생
 
    - **Save knowledge base** 버튼을 클릭합니다.
    
-   ![Blob Storage Knowledge Base 생성](./assets/04-30-blob-knowledge-create.png)
+   ![Blob Storage Knowledge Base 생성](../assets/04-30-blob-knowledge-create.png)
 
-   ![Blob Storage Knowledge Base 생성 완료](./assets/04-30-blob-knowledge-created.png)
+   ![Blob Storage Knowledge Base 생성 완료](../assets/04-30-blob-knowledge-created.png)
 
-   ![Knowledge Base 리스트](./assets/04-30-knowledge-base-list.png)
+   ![Knowledge Base 리스트](../assets/04-30-knowledge-base-list.png)
 
 ### Blob Storage 방식의 장점
 
@@ -526,7 +526,7 @@ Blob Storage를 직접 연결하여 자동 인덱싱되는 Knowledge Base를 생
    Model: gpt-5.1
    ```
    
-   ![KnowledgeAgent 생성](./assets/04-31-knowledge-agent-create.png)
+   ![KnowledgeAgent 생성](../assets/04-31-knowledge-agent-create.png)
 
 2. **Instructions 설정**
 
@@ -540,14 +540,14 @@ Blob Storage를 직접 연결하여 자동 인덱싱되는 Knowledge Base를 생
    4. Knowledge Base에 없는 정보는 솔직하게 모른다고 답변하세요
    ```
    
-   ![KnowledgeAgent Instructions](./assets/04-32-knowledge-agent-instructions.png)
+   ![KnowledgeAgent Instructions](../assets/04-32-knowledge-agent-instructions.png)
 
 3. **Knowledge 연결**
 
    - **Knowledge** 섹션에서 **Add** 버튼을 클릭합니다.
    - **Connect to Foundry IQ**를 선택합니다.
    
-   ![Knowledge 연결 (Add 버튼)](./assets/04-33-knowledge-connect.png)
+   ![Knowledge 연결 (Add 버튼)](../assets/04-33-knowledge-connect.png)
 
    ```
    Connection: foundry<Your unique name> (AI Search)
@@ -556,11 +556,11 @@ Blob Storage를 직접 연결하여 자동 인덱싱되는 Knowledge Base를 생
 
    - **Connect** 버튼을 클릭합니다.
    
-   ![Knowledge base 선택](./assets/04-34-knowledge-select.png)
+   ![Knowledge base 선택](../assets/04-34-knowledge-select.png)
 
    - **Save** 버튼을 클릭합니다.
 
-   ![Knowledge base 저장](./assets/04-34-knowledge-complete.png)
+   ![Knowledge base 저장](../assets/04-34-knowledge-complete.png)
 
 4. **에이전트 테스트**
 
@@ -581,7 +581,7 @@ Blob Storage를 직접 연결하여 자동 인덱싱되는 Knowledge Base를 생
    ```
    예상 답변: Financial Analyst, Controller, Tax Specialist 역할 설명
    
-   ![KnowledgeAgent 테스트](./assets/04-35-knowledge-agent-test.png)
+   ![KnowledgeAgent 테스트](../assets/04-35-knowledge-agent-test.png)
 
 
 ### KnowledgeAgent2 (Blob Storage 연결)

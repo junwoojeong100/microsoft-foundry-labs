@@ -33,11 +33,11 @@ You can explore various AI models in the Discover section of the Foundry portal.
 1. **Navigate to Discover Section**
    - Click **Discover** in the top right menu of the Foundry portal.
 
-   ![Discover > Models menu](../assets/02-00-discover-overview.png)
+   ![Discover > Models menu](../../assets/02-00-discover-overview.png)
 
    - Select the **Models** menu.
    
-   ![Discover > Models menu](../assets/02-01-discover-models.png)
+   ![Discover > Models menu](../../assets/02-01-discover-models.png)
 
 2. **Check Model Leaderboard**
    - Click the **View leaderboard** option.
@@ -48,7 +48,7 @@ You can explore various AI models in the Discover section of the Foundry portal.
      - Context window
      - Modality support (text, vision, audio)
    
-   ![Model Leaderboard screen](../assets/02-02-model-leaderboard.png)
+   ![Model Leaderboard screen](../../assets/02-02-model-leaderboard.png)
 
 3. **Understand Model Categories**
    - **Language Models**: GPT-5.1, GPT-5, Claude, etc.
@@ -70,18 +70,18 @@ You can explore various AI models in the Discover section of the Foundry portal.
    - Select the models you want to compare (e.g., GPT-5.1, GPT-5, Claude 4.5 Sonnet).
    - Compare performance, cost, and features.
    
-   ![Compare models feature](../assets/02-03-model-compare.png)
+   ![Compare models feature](../../assets/02-03-model-compare.png)
 
 2. **Select and Deploy GPT-5.1**
    - Find **gpt-5.1** in the model list.
    - Click the model card to view detailed information.
    
-   ![GPT-5.1 model card](../assets/02-04-gpt51-model-card.png)
+   ![GPT-5.1 model card](../../assets/02-04-gpt51-model-card.png)
 
 3. **Deployment Configuration**
    - Click the **Deploy** button.
    
-   ![Deploy button](../assets/02-05-gpt51-deploy-button.png)
+   ![Deploy button](../../assets/02-05-gpt51-deploy-button.png)
 
 4. **Complete Deployment**
    - Click **Default settings** to start deployment.
@@ -93,7 +93,7 @@ You can explore various AI models in the Discover section of the Foundry portal.
 - Confirm deployment status is "Succeeded"
 - Check that Endpoint URL was created
 
-![Verify deployed gpt-5.1 in Build > Models](../assets/02-07-gpt51-deployed.png)
+![Verify deployed gpt-5.1 in Build > Models](../../assets/02-07-gpt51-deployed.png)
 
 ---
 
@@ -107,14 +107,14 @@ Embedding models convert text into vectors, enabling semantic search and similar
    - Enter **"text-embedding"** in the search box on the Discover > Models page.
    - You can use filters to display only Embedding models.
    
-   ![Search text-embedding](../assets/02-08-embedding-search.png)
+   ![Search text-embedding](../../assets/02-08-embedding-search.png)
 
 2. **Select text-embedding-3-large**
    - Select the **text-embedding-3-large** model.
    - Review model details:
      - Dimensions: 3072
    
-   ![text-embedding-3-large model card](../assets/02-09-embedding-model-card.png)
+   ![text-embedding-3-large model card](../../assets/02-09-embedding-model-card.png)
 
 3. **Deployment Configuration**
    ```
@@ -126,7 +126,7 @@ Embedding models convert text into vectors, enabling semantic search and similar
 4. **Execute Deployment**
    - Click the **Deploy** button to deploy.
    
-   ![Verify deployment completion](../assets/02-10-embedding-deployed.png)
+   ![Verify deployment completion](../../assets/02-10-embedding-deployed.png)
 
 ---
 
@@ -139,7 +139,7 @@ Model Router provides intelligent routing across multiple models to optimize cos
 1. **Search for Model Router**
    - Search for **"model-router"** in Discover > Models.
    
-   ![Search model-router](../assets/02-11-model-router-search.png)
+   ![Search model-router](../../assets/02-11-model-router-search.png)
 
 2. **Review Model Router Information**
    - Key features of Model Router:
@@ -155,7 +155,7 @@ Model Router provides intelligent routing across multiple models to optimize cos
    Included models: [Automatically detected available models]
    ```
    
-   ![Model Router deployment settings](../assets/02-12-model-router-deploy.png)
+   ![Model Router deployment settings](../../assets/02-12-model-router-deploy.png)
 
 4. **Complete Deployment**
    - Click the **Deploy** button.
@@ -167,7 +167,7 @@ Model Router provides intelligent routing across multiple models to optimize cos
 - Check deployment status
 - Verify list of models accessible to the Router
 
-![Complete Build > Models deployment list](../assets/02-15-models-overview.png)
+![Complete Build > Models deployment list](../../assets/02-15-models-overview.png)
 
 ---
 
@@ -185,13 +185,13 @@ Configure the Model Router's routing strategy to align with your application req
    - Select the **Details** tab.
    - Click the **Edit** button.
    
-   ![Model Router settings screen (Edit mode)](../assets/02-13-model-router-config.png)
+   ![Model Router settings screen (Edit mode)](../../assets/02-13-model-router-config.png)
 
 3. **Model Router Configuration**
    
    #### Routing Mode Options:
    
-   ![Routing Mode options](../assets/02-14-model-router-modes.png)
+   ![Routing Mode options](../../assets/02-14-model-router-modes.png)
    
    **a) Balanced Mode**
    ```

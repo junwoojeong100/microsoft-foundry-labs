@@ -71,23 +71,23 @@ Let's evaluate the previously created `ModelRouterAgent`.
    - Select **Build** from the top right menu in the Foundry portal.
    - Click the **Evaluations** menu.
    
-   ![Build > Evaluations menu](../assets/06-01-evaluations-menu.png)
+   ![Build > Evaluations menu](../../assets/06-01-evaluations-menu.png)
 
 2. **Evaluation Catalog**
 
-   ![Evaluations Catalog](../assets/06-01-evaluations-catalog.png)
+   ![Evaluations Catalog](../../assets/06-01-evaluations-catalog.png)
 
 3. **Create New Evaluation**
 
    - Click the **+ Create new evaluation** or **New evaluation** button.
    
-   ![Create new evaluation button](../assets/06-02-create-evaluation.png)
+   ![Create new evaluation button](../../assets/06-02-create-evaluation.png)
 
 4. **Select Target**
 
    Select the evaluation target:
    
-   ![Select Target (Agent)](../assets/06-03-evaluation-target.png)
+   ![Select Target (Agent)](../../assets/06-03-evaluation-target.png)
 
    ```
    Target type: Agent
@@ -105,11 +105,11 @@ Let's evaluate the previously created `ModelRouterAgent`.
 
    Select test data:
    
-   ![Data configuration (Synthetic generation)](../assets/06-04-evaluation-data1.png)
+   ![Data configuration (Synthetic generation)](../../assets/06-04-evaluation-data1.png)
 
-   ![Data configuration (Synthetic generation)](../assets/06-04-evaluation-data2.png)
+   ![Data configuration (Synthetic generation)](../../assets/06-04-evaluation-data2.png)
 
-   ![Data configuration (Synthetic generation)](../assets/06-04-evaluation-data3.png)
+   ![Data configuration (Synthetic generation)](../../assets/06-04-evaluation-data3.png)
 
    ```
    Data source: Synthetic generation
@@ -142,7 +142,7 @@ Let's evaluate the previously created `ModelRouterAgent`.
    ☑ Fluency (Answer naturalness)
    ```
 
-   ![Select Metrics (Groundedness, Relevance, etc.)](../assets/06-05-evaluation-metrics.png)
+   ![Select Metrics (Groundedness, Relevance, etc.)](../../assets/06-05-evaluation-metrics.png)
 
    See the section below for detailed explanation of each criterion.
 
@@ -150,7 +150,7 @@ Let's evaluate the previously created `ModelRouterAgent`.
 
    Review settings:
    
-   ![Review and create](../assets/06-06-evaluation-review.png)
+   ![Review and create](../../assets/06-06-evaluation-review.png)
 
    ```
    Target: ModelRouterAgent (Latest)
@@ -166,21 +166,21 @@ Let's evaluate the previously created `ModelRouterAgent`.
    - Evaluation runs in the background.
    - Progress can be checked on the Evaluations page.
 
-   ![Evaluation Run](../assets/06-06-evaluation-run.png)
+   ![Evaluation Run](../../assets/06-06-evaluation-run.png)
 
 9. **Evaluation Result**
 
-   ![Evaluation Result](../assets/06-06-evaluation-result.png)
+   ![Evaluation Result](../../assets/06-06-evaluation-result.png)
 
-   ![Evaluation Result](../assets/06-06-evaluation-result2.png)
+   ![Evaluation Result](../../assets/06-06-evaluation-result2.png)
 
-   ![Evaluation Result](../assets/06-06-evaluation-result3.png)
+   ![Evaluation Result](../../assets/06-06-evaluation-result3.png)
 
-   ![Evaluation Result](../assets/06-06-evaluation-result4.png)
+   ![Evaluation Result](../../assets/06-06-evaluation-result4.png)
 
-   ![Evaluation Result](../assets/06-06-evaluation-result5.png)
+   ![Evaluation Result](../../assets/06-06-evaluation-result5.png)
 
-   ![Evaluation Result](../assets/06-06-evaluation-result6.png)
+   ![Evaluation Result](../../assets/06-06-evaluation-result6.png)
 
 ### ✅ Verification Checklist
 

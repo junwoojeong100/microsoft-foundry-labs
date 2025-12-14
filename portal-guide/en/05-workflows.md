@@ -166,22 +166,22 @@ Final output: Printable travel guide
    - Select **Build** from the top right menu in the Foundry portal.
    - Click the **Workflows** menu.
    
-   ![Build > Workflows menu](../assets/05-01-workflows-menu.png)
+   ![Build > Workflows menu](../../assets/05-01-workflows-menu.png)
 
 2. **Create New Workflow**
 
    - Click the **+ Create workflow** or **New workflow** button.
    - Select **Sequential Workflow**.
    
-   ![Create workflow button](../assets/05-02-create-workflow.png)
+   ![Create workflow button](../../assets/05-02-create-workflow.png)
 
-   ![Create workflow button2](../assets/05-02-create-workflow-2.png)
+   ![Create workflow button2](../../assets/05-02-create-workflow-2.png)
 
 3. **Add Agents**
 
    Add agents in sequence:
    
-   ![Select an agent to invoke button](../assets/05-04-workflow-add-agent.png)
+   ![Select an agent to invoke button](../../assets/05-04-workflow-add-agent.png)
 
    ```
    Step 1: TravelPlannerAgent
@@ -193,21 +193,21 @@ Final output: Printable travel guide
 
    - Click **Select an agent to invoke** button at each step to select an agent.
 
-   ![Select an agent to invoke button1](../assets/05-04-workflow-add-agent1.png)
+   ![Select an agent to invoke button1](../../assets/05-04-workflow-add-agent1.png)
    
-   ![Select an agent to invoke button2](../assets/05-04-workflow-add-agent2.png)
+   ![Select an agent to invoke button2](../../assets/05-04-workflow-add-agent2.png)
 
-   ![Select an agent to invoke button3](../assets/05-04-workflow-add-agent3.png)
+   ![Select an agent to invoke button3](../../assets/05-04-workflow-add-agent3.png)
 
-   ![Complete workflow](../assets/05-02-overall-workflow.png)
+   ![Complete workflow](../../assets/05-02-overall-workflow.png)
 
 4. **Save Workflow**
 
    - Click the **Save** button.
 
-   ![Register workflow name](../assets/05-02-workflow-save.png)
+   ![Register workflow name](../../assets/05-02-workflow-save.png)
 
-   ![Save workflow name](../assets/05-02-workflow-saved.png)
+   ![Save workflow name](../../assets/05-02-workflow-saved.png)
 
 ### Test Workflow
 
@@ -229,7 +229,7 @@ Final output: Printable travel guide
    - **Step 2 (LocalAgent)**: Add local information (weather, transportation, events)
    - **Step 3 (TravelSummaryAgent)**: Final summary and checklist
 
-   ![Workflow Preview](../assets/05-05-workflow-preview.png)
+   ![Workflow Preview](../../assets/05-05-workflow-preview.png)
 
 4. **Check Traces**
 
@@ -243,13 +243,13 @@ Final output: Printable travel guide
 
    - Click the **Publish** button.
 
-   ![Workflow Publish-1](../assets/05-05-workflow-publish1.png)
+   ![Workflow Publish-1](../../assets/05-05-workflow-publish1.png)
 
    - Verify the version and publish.
 
-   ![Workflow Publish-2](../assets/05-05-workflow-publish2.png)
+   ![Workflow Publish-2](../../assets/05-05-workflow-publish2.png)
 
-   ![Workflow Publish-3](../assets/05-05-workflow-publish3.png)
+   ![Workflow Publish-3](../../assets/05-05-workflow-publish3.png)
 
 2. **Invoke with Python SDK**
 
@@ -395,7 +395,7 @@ Important: Use [COMPLETE] only when all criteria are satisfied.
    - Click the **+ Create workflow** button in Workflows section.
    - Select **Group Chat Workflow**.
    
-   ![Create Group Chat Workflow](../assets/05-09-group-chat-create.png)
+   ![Create Group Chat Workflow](../../assets/05-09-group-chat-create.png)
 
 2. **Add Agents**
 
@@ -408,7 +408,7 @@ Important: Use [COMPLETE] only when all criteria are satisfied.
    Max turns: 4 (prevent infinite loops)
    ```
 
-   ![Add multiple agents](../assets/05-10-group-chat-agents.png)
+   ![Add multiple agents](../../assets/05-10-group-chat-agents.png)
 
 3. **Configure Conversation Flow**
 
@@ -424,9 +424,9 @@ Important: Use [COMPLETE] only when all criteria are satisfied.
 
    - Click the **Save** button.
    
-   ![Save Group Chat Workflow](../assets/05-09-group-chat-save.png)
+   ![Save Group Chat Workflow](../../assets/05-09-group-chat-save.png)
       
-   ![Group Chat Workflow saved](../assets/05-09-group-chat-saved.png)
+   ![Group Chat Workflow saved](../../assets/05-09-group-chat-saved.png)
 
 ### Test Workflow
 
@@ -434,7 +434,7 @@ Important: Use [COMPLETE] only when all criteria are satisfied.
 
    - Click the **Preview** button.
 
-   ![Group Chat Workflow Preview](../assets/05-09-group-chat-preview.png)
+   ![Group Chat Workflow Preview](../../assets/05-09-group-chat-preview.png)
 
 2. **Test Question**
 
@@ -566,7 +566,7 @@ Human-in-loop is useful in these situations:
    TravelSummaryAgent: Final summary
    ```
 
-   ![Human-in-Loop Workflow Preview](../assets/05-10-human-in-loop-workflow-preview.png)
+   ![Human-in-Loop Workflow Preview](../../assets/05-10-human-in-loop-workflow-preview.png)
 
 ### 💡 Human-in-loop Best Practices
 

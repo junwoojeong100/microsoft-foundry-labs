@@ -72,11 +72,11 @@ First, connect an Azure AI Search resource to use Foundry IQ.
 
    - Navigate to the **Foundry IQ** section in Foundry portal.
    
-   ![Foundry IQ section](../assets/04-01-foundry-iq-menu.png)
+   ![Foundry IQ section](../../assets/04-01-foundry-iq-menu.png)
    
    - The message **Connect to an AI Search resource to get started** is displayed.
    
-   ![Connect to AI Search resource message](../assets/04-02-foundry-iq-connect.png)
+   ![Connect to AI Search resource message](../../assets/04-02-foundry-iq-connect.png)
    
    - Click the **Create new resource** button.
 
@@ -91,7 +91,7 @@ First, connect an Azure AI Search resource to use Foundry IQ.
    Pricing tier: Basic
    ```
    
-   ![Search Service creation settings](../assets/04-04-ai-search-settings.png)
+   ![Search Service creation settings](../../assets/04-04-ai-search-settings.png)
 
    **Pricing Tier Selection Guide**:
    - **Free**: Testing, 50MB, 3 indexes (1 per subscription)
@@ -99,7 +99,7 @@ First, connect an Azure AI Search resource to use Foundry IQ.
    - **Standard**: Production, 512GB+, 50 indexes
    - **Storage Optimized**: Large-scale data, 2TB+
    
-   ![Pricing tier selection screen](../assets/04-05-ai-search-pricing-tiers.png)
+   ![Pricing tier selection screen](../../assets/04-05-ai-search-pricing-tiers.png)
 
 3. **Compute Settings**
 
@@ -124,7 +124,7 @@ Configure Managed Identity so AI Search can access Foundry resources.
    - Open the created Search Service in Azure Portal.
    - Select **Settings > Identity** from the left menu.
    
-   ![Managed Identity settings](../assets/04-06-ai-search-identity.png)
+   ![Managed Identity settings](../../assets/04-06-ai-search-identity.png)
 
 2. **Enable System Assigned Identity**
 
@@ -135,7 +135,7 @@ Configure Managed Identity so AI Search can access Foundry resources.
    - Click the **Save** button.
    - Verify Object ID was created.
 
-   ![Enable Managed Identity](../assets/04-06-ai-search-identity-enable.png)
+   ![Enable Managed Identity](../../assets/04-06-ai-search-identity-enable.png)
 
 ### Connect AI Search to Foundry
 
@@ -148,14 +148,14 @@ Configure Managed Identity so AI Search can access Foundry resources.
    - Click the **Select a resource** or **Connect** button.
    - Select the created Search Service from dropdown.
 
-   ![Connect AI Search](../assets/04-07-foundry-iq-connect.png)
+   ![Connect AI Search](../../assets/04-07-foundry-iq-connect.png)
 
 3. **Complete Connection**
 
    - Click the **Connect** button.
    - Once connection is successful, Foundry IQ dashboard is enabled.
    
-   ![AI Search connection complete](../assets/04-07-foundry-iq-connected.png)
+   ![AI Search connection complete](../../assets/04-07-foundry-iq-connected.png)
 
 ### ✅ Verification Checklist
 
@@ -175,11 +175,11 @@ Create a Knowledge Base using an existing AI Search Index.
 
    - Search for **Storage accounts** in Azure Portal.
 
-   ![Storage Accounts](../assets/04-08-storage-account.png)
+   ![Storage Accounts](../../assets/04-08-storage-account.png)
 
    - Click the **+ Create** button.
    
-   ![Storage Account creation button](../assets/04-08-storage-create-button.png)
+   ![Storage Account creation button](../../assets/04-08-storage-create-button.png)
 
    ```
    Resource group: foundry
@@ -190,7 +190,7 @@ Create a Knowledge Base using an existing AI Search Index.
    Performance: Standard
    Redundancy: Locally-redundant storage (LRS)
    ```
-   ![Create Storage Account](../assets/04-08-storage-create.png)
+   ![Create Storage Account](../../assets/04-08-storage-create.png)
 
    - Click **Review + create** > **Create**.
 
@@ -200,7 +200,7 @@ Create a Knowledge Base using an existing AI Search Index.
    - Select **Containers** from the left menu.
    - Click the **+ Container** button.
    
-   ![Container button](../assets/04-09-container-button.png)
+   ![Container button](../../assets/04-09-container-button.png)
 
    - Click the **+Add container** button.
 
@@ -209,11 +209,11 @@ Create a Knowledge Base using an existing AI Search Index.
    Public access level: Private
    ```
 
-   ![Add container button](../assets/04-09-add-container-button.png)
+   ![Add container button](../../assets/04-09-add-container-button.png)
 
    - Click **Create**.
 
-   ![Create container](../assets/04-09-container-create.png)
+   ![Create container](../../assets/04-09-container-create.png)
 
 ### Configure IAM Permissions
 
@@ -223,11 +223,11 @@ Configure permissions between Storage Account and AI Search.
 
    - Navigate to the created Storage Account.
 
-   ![Storage Account](../assets/04-10-storage-account.png)
+   ![Storage Account](../../assets/04-10-storage-account.png)
 
    - Click **Access Control (IAM)** > **+ Add** > **Add role assignment**.
 
-   ![Storage Account IAM menu Add role assignment](../assets/04-11-storage-iam-add-role-assignment.png)
+   ![Storage Account IAM menu Add role assignment](../../assets/04-11-storage-iam-add-role-assignment.png)
 
    ```
    Role: Storage Blob Data Contributor
@@ -237,15 +237,15 @@ Configure permissions between Storage Account and AI Search.
 
    - Search for and select **Storage Blob Data Contributor**, then click the "Next" button.
 
-   ![Storage Account IAM menu Role selection](../assets/04-11-storage-iam-role-select.png)
+   ![Storage Account IAM menu Role selection](../../assets/04-11-storage-iam-role-select.png)
 
    - Click **+Select members**, search for and select your Entra ID account, then click the "Select" button.
 
-   ![Storage Account IAM menu Members selection](../assets/04-11-storage-iam-member-select.png)
+   ![Storage Account IAM menu Members selection](../../assets/04-11-storage-iam-member-select.png)
 
    - Click **Review + assign**.
    
-   ![Storage Blob Data Contributor role assignment (User)](../assets/04-12-storage-role-user.png)
+   ![Storage Blob Data Contributor role assignment (User)](../../assets/04-12-storage-role-user.png)
 
 2. **Storage Blob Data Contributor - Search Service**
 
@@ -264,13 +264,13 @@ Configure permissions between Storage Account and AI Search.
    - Select Managed identity in **Assign access to**.
    - Click **+Select members**, select your subscription, Search service, and Search service name, then click the "Select" button.
 
-   ![Storage Blob Data Contributor role assignment (Search Service) - Managed Identity](../assets/04-13-storage-role-search-managed-identity.png)
+   ![Storage Blob Data Contributor role assignment (Search Service) - Managed Identity](../../assets/04-13-storage-role-search-managed-identity.png)
 
    - Click **Review + assign**.
    
-   ![Storage Blob Data Contributor role assignment (Search Service)](../assets/04-13-storage-role-search.png)
+   ![Storage Blob Data Contributor role assignment (Search Service)](../../assets/04-13-storage-role-search.png)
 
-   ![Storage Blob Data Contributor role assignment (Search Service)](../assets/04-13-storage-role-search-2.png)
+   ![Storage Blob Data Contributor role assignment (Search Service)](../../assets/04-13-storage-role-search-2.png)
 
 Configure permissions between Microsoft Foundry and AI Search.
 
@@ -278,21 +278,21 @@ Configure permissions between Microsoft Foundry and AI Search.
 
    - Navigate to **Microsoft Foundry**.
 
-   ![Foundry](../assets/04-14-foundry.png)
+   ![Foundry](../../assets/04-14-foundry.png)
 
    - Navigate to **Microsoft Foundry** resource.
 
-   ![Foundry resource](../assets/04-14-foundry-resource.png)
+   ![Foundry resource](../../assets/04-14-foundry-resource.png)
 
    - Click the created **Foundry resource** and click **Access Control (IAM)**.
 
-   ![Click Foundry resource](../assets/04-14-foundry-resource-click.png)
+   ![Click Foundry resource](../../assets/04-14-foundry-resource-click.png)
 
    - **Access Control (IAM)** > **+ Add** > **Add role assignment**
 
    - Search for and select **Azure AI Project Manager**, then click the "Next" button.
 
-   ![Foundry resource IAM](../assets/04-14-foundry-iam.png)
+   ![Foundry resource IAM](../../assets/04-14-foundry-iam.png)
 
    - Select Managed identity in **Assign access to**.
    - Click **+Select members**, select your subscription, Search service, and Search service name, then click the "Select" button.
@@ -306,13 +306,13 @@ Configure permissions between Microsoft Foundry and AI Search.
      - Select: foundry<Your unique name>
    ```
 
-   ![Foundry resource IAM](../assets/04-14-foundry-iam-2.png)
+   ![Foundry resource IAM](../../assets/04-14-foundry-iam-2.png)
 
    - Click **Review + assign**.
    
-   ![Azure AI Project Manager role assignment](../assets/04-15-foundry-role-search.png)
+   ![Azure AI Project Manager role assignment](../../assets/04-15-foundry-role-search.png)
 
-   ![Azure AI Project Manager role assignment](../assets/04-15-foundry-role-search-2.png)
+   ![Azure AI Project Manager role assignment](../../assets/04-15-foundry-role-search-2.png)
 
 ### Upload Sample Data
 
@@ -328,9 +328,9 @@ Configure permissions between Microsoft Foundry and AI Search.
    - `PerksPlus.pdf`
    - `role_library.pdf`
    
-   ![Upload sample data](../assets/04-10-container-upload.png)
+   ![Upload sample data](../../assets/04-10-container-upload.png)
 
-   ![Upload sample data](../assets/04-10-container-upload-2.png)
+   ![Upload sample data](../../assets/04-10-container-upload-2.png)
 
 ### Run Import Data Wizard
 
@@ -339,17 +339,17 @@ Configure permissions between Microsoft Foundry and AI Search.
    - Open the created AI Search in Azure Portal.
    - Click the **Import data (new)** button.
    
-   ![Import data (new) button](../assets/04-16-import-data-button.png)
+   ![Import data (new) button](../../assets/04-16-import-data-button.png)
 
 2. **Select Data Source**
 
    - **Data Source**: Azure Blob Storage
    
-   ![Select Azure Blob Storage](../assets/04-17-import-data-source.png)
+   ![Select Azure Blob Storage](../../assets/04-17-import-data-source.png)
 
    - **Scenario**: RAG (Retrieval Augmented Generation)
 
-   ![Select Scenario](../assets/04-17-import-data-source-2.png)
+   ![Select Scenario](../../assets/04-17-import-data-source-2.png)
 
 3. **Configure Azure Blob Storage**
 
@@ -361,7 +361,7 @@ Configure permissions between Microsoft Foundry and AI Search.
 
    - Click **Next**.
    
-   ![Configure Blob Storage](../assets/04-18-import-blob-config.png)
+   ![Configure Blob Storage](../../assets/04-18-import-blob-config.png)
 
 4. **Configure Text Vectorization**
 
@@ -376,13 +376,13 @@ Configure permissions between Microsoft Foundry and AI Search.
    - Click the **Check** button to verify connection
    - Click **Next**.
    
-   ![Configure text vectorization](../assets/04-19-import-vectorize-text.png)
+   ![Configure text vectorization](../../assets/04-19-import-vectorize-text.png)
 
 5. **Image Vectorization (Optional)**
 
    - Click **Next**.
 
-   ![Image vectorization](../assets/04-19-image-vectorize.png)
+   ![Image vectorization](../../assets/04-19-image-vectorize.png)
 
 6. **Advanced Ranking Configuration**
 
@@ -393,18 +393,18 @@ Configure permissions between Microsoft Foundry and AI Search.
 
    - Semantic Ranker improves search result relevance.
    
-   ![Configure semantic ranker](../assets/04-20-import-semantic-ranker.png)
+   ![Configure semantic ranker](../../assets/04-20-import-semantic-ranker.png)
 
 7. **Review and Create**
 
    - Click **Create**.
    - Indexing takes approximately 5-10 minutes.
    
-   ![Review and create](../assets/04-21-import-review-create.png)
+   ![Review and create](../../assets/04-21-import-review-create.png)
 
-   ![Review and create](../assets/04-21-import-review-create-2.png)
+   ![Review and create](../../assets/04-21-import-review-create-2.png)
    
-   ![Start Searching](../assets/04-22-start-searching.png)
+   ![Start Searching](../../assets/04-22-start-searching.png)
 
 ### Create Knowledge Base
 
@@ -412,19 +412,19 @@ Configure permissions between Microsoft Foundry and AI Search.
 
    - Navigate to the **Foundry IQ** section in Foundry portal.
 
-   ![Foundry IQ](../assets/04-23-foundry-iq.png)
+   ![Foundry IQ](../../assets/04-23-foundry-iq.png)
 
 2. **Create Knowledge Base**
 
    - Click the **Create a knowledge base** button.
    - Select **Azure AI Search Index** and click the **Connect** button.
 
-   ![Create Knowledge Base](../assets/04-25-knowledge-base-create.png)
+   ![Create Knowledge Base](../../assets/04-25-knowledge-base-create.png)
 
    - Change the **Knowledge source name** suffix number to **100**.
    - Select **Azure AI Search Index**, then click the **Create** button.
    
-   ![Create knowledge source](../assets/04-23-knowledge-source-create.png)
+   ![Create knowledge source](../../assets/04-23-knowledge-source-create.png)
 
    ```
    Knowledge base name: knowledgebase100
@@ -434,9 +434,9 @@ Configure permissions between Microsoft Foundry and AI Search.
 
    - Verify the created **Knowledge source** and click the **Save knowledge base** button.
    
-   ![Knowledge Base settings](../assets/04-24-knowledge-base-settings.png)
+   ![Knowledge Base settings](../../assets/04-24-knowledge-base-settings.png)
 
-   ![Knowledge Base list](../assets/04-24-knowledge-base-list.png)
+   ![Knowledge Base list](../../assets/04-24-knowledge-base-list.png)
 
 ---
 
@@ -454,7 +454,7 @@ Create a Knowledge Base with automatic indexing by directly connecting Blob Stor
 
    - Select **Azure Blob Storage** and click the **Connect** button.
 
-   ![Direct Blob Storage connection](../assets/04-28-blob-knowledge-create.png)
+   ![Direct Blob Storage connection](../../assets/04-28-blob-knowledge-create.png)
 
 3. **Configure Knowledge Source**
 
@@ -468,7 +468,7 @@ Create a Knowledge Base with automatic indexing by directly connecting Blob Stor
    Chat completions model: gpt-4.1
    ```
    
-   ![Blob Storage Knowledge Source settings](../assets/04-29-blob-knowledge-settings.png)
+   ![Blob Storage Knowledge Source settings](../../assets/04-29-blob-knowledge-settings.png)
 
 4. **Create Knowledge Source**
 
@@ -487,11 +487,11 @@ Create a Knowledge Base with automatic indexing by directly connecting Blob Stor
 
    - Click the **Save knowledge base** button.
    
-   ![Create Blob Storage Knowledge Base](../assets/04-30-blob-knowledge-create.png)
+   ![Create Blob Storage Knowledge Base](../../assets/04-30-blob-knowledge-create.png)
 
-   ![Blob Storage Knowledge Base creation complete](../assets/04-30-blob-knowledge-created.png)
+   ![Blob Storage Knowledge Base creation complete](../../assets/04-30-blob-knowledge-created.png)
 
-   ![Knowledge Base list](../assets/04-30-knowledge-base-list.png)
+   ![Knowledge Base list](../../assets/04-30-knowledge-base-list.png)
 
 ### Blob Storage Method Advantages
 
@@ -521,7 +521,7 @@ Integrate the created Knowledge Base with agents to provide knowledge-based resp
    Model: gpt-5.1
    ```
    
-   ![Create KnowledgeAgent](../assets/04-31-knowledge-agent-create.png)
+   ![Create KnowledgeAgent](../../assets/04-31-knowledge-agent-create.png)
 
 2. **Configure Instructions**
 
@@ -535,14 +535,14 @@ Integrate the created Knowledge Base with agents to provide knowledge-based resp
    4. Honestly state you don't know if information is not in the Knowledge Base
    ```
    
-   ![KnowledgeAgent Instructions](../assets/04-32-knowledge-agent-instructions.png)
+   ![KnowledgeAgent Instructions](../../assets/04-32-knowledge-agent-instructions.png)
 
 3. **Connect Knowledge**
 
    - Click the **Add** button in the **Knowledge** section.
    - Select **Connect to Foundry IQ**.
    
-   ![Connect Knowledge (Add button)](../assets/04-33-knowledge-connect.png)
+   ![Connect Knowledge (Add button)](../../assets/04-33-knowledge-connect.png)
 
    ```
    Connection: foundry<Your unique name> (AI Search)
@@ -551,11 +551,11 @@ Integrate the created Knowledge Base with agents to provide knowledge-based resp
 
    - Click the **Connect** button.
    
-   ![Select Knowledge base](../assets/04-34-knowledge-select.png)
+   ![Select Knowledge base](../../assets/04-34-knowledge-select.png)
 
    - Click the **Save** button.
 
-   ![Save Knowledge base](../assets/04-34-knowledge-complete.png)
+   ![Save Knowledge base](../../assets/04-34-knowledge-complete.png)
 
 4. **Test Agent**
 
@@ -576,7 +576,7 @@ Integrate the created Knowledge Base with agents to provide knowledge-based resp
    ```
    Expected answer: Description of Financial Analyst, Controller, Tax Specialist roles
    
-   ![KnowledgeAgent test](../assets/04-35-knowledge-agent-test.png)
+   ![KnowledgeAgent test](../../assets/04-35-knowledge-agent-test.png)
 
 ### KnowledgeAgent2 (Blob Storage Connection)
 

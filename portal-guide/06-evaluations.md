@@ -71,23 +71,23 @@ Foundry는 다음을 자동화합니다:
    - Foundry 포털 우측 상단 메뉴에서 **Build**를 선택합니다.
    - **Evaluations** 메뉴를 클릭합니다.
    
-   ![Build > Evaluations 메뉴](./assets/06-01-evaluations-menu.png)
+   ![Build > Evaluations 메뉴](../assets/06-01-evaluations-menu.png)
 
 2. **Evaluation Catalog**
 
-   ![Evaluations Catalog](./assets/06-01-evaluations-catalog.png)
+   ![Evaluations Catalog](../assets/06-01-evaluations-catalog.png)
 
 3. **새 평가 생성**
 
    - **+ Create new evaluation** 또는 **New evaluation** 버튼을 클릭합니다.
    
-   ![Create new evaluation 버튼](./assets/06-02-create-evaluation.png)
+   ![Create new evaluation 버튼](../assets/06-02-create-evaluation.png)
 
 4. **Target 선택**
 
    평가 대상을 선택합니다:
    
-   ![Target 선택 (Agent)](./assets/06-03-evaluation-target.png)
+   ![Target 선택 (Agent)](../assets/06-03-evaluation-target.png)
 
    ```
    Target type: Agent
@@ -105,11 +105,11 @@ Foundry는 다음을 자동화합니다:
 
    테스트 데이터를 선택합니다:
    
-   ![Data 설정 (Synthetic generation)](./assets/06-04-evaluation-data1.png)
+   ![Data 설정 (Synthetic generation)](../assets/06-04-evaluation-data1.png)
 
-   ![Data 설정 (Synthetic generation)](./assets/06-04-evaluation-data2.png)
+   ![Data 설정 (Synthetic generation)](../assets/06-04-evaluation-data2.png)
 
-   ![Data 설정 (Synthetic generation)](./assets/06-04-evaluation-data3.png)
+   ![Data 설정 (Synthetic generation)](../assets/06-04-evaluation-data3.png)
 
    ```
    Data source: Synthetic generation
@@ -142,7 +142,7 @@ Foundry는 다음을 자동화합니다:
    ☑ Fluency (답변의 자연스러움)
    ```
 
-   ![Metrics 선택 (Groundedness, Relevance 등)](./assets/06-05-evaluation-metrics.png)
+   ![Metrics 선택 (Groundedness, Relevance 등)](../assets/06-05-evaluation-metrics.png)
 
    각 기준에 대한 상세 설명은 아래 섹션을 참조하세요.
 
@@ -150,7 +150,7 @@ Foundry는 다음을 자동화합니다:
 
    설정을 검토합니다:
    
-   ![Review and create](./assets/06-06-evaluation-review.png)
+   ![Review and create](../assets/06-06-evaluation-review.png)
 
    ```
    Target: ModelRouterAgent (Latest)
@@ -166,21 +166,21 @@ Foundry는 다음을 자동화합니다:
    - 평가가 백그라운드에서 실행됩니다.
    - 진행 상황은 Evaluations 페이지에서 확인할 수 있습니다.
 
-   ![Evaluation Run](./assets/06-06-evaluation-run.png)
+   ![Evaluation Run](../assets/06-06-evaluation-run.png)
 
 9. **Evaluation Result**
 
-   ![Evaluation Result](./assets/06-06-evaluation-result.png)
+   ![Evaluation Result](../assets/06-06-evaluation-result.png)
 
-   ![Evaluation Result](./assets/06-06-evaluation-result2.png)
+   ![Evaluation Result](../assets/06-06-evaluation-result2.png)
 
-   ![Evaluation Result](./assets/06-06-evaluation-result3.png)
+   ![Evaluation Result](../assets/06-06-evaluation-result3.png)
 
-   ![Evaluation Result](./assets/06-06-evaluation-result4.png)
+   ![Evaluation Result](../assets/06-06-evaluation-result4.png)
 
-   ![Evaluation Result](./assets/06-06-evaluation-result5.png)
+   ![Evaluation Result](../assets/06-06-evaluation-result5.png)
 
-   ![Evaluation Result](./assets/06-06-evaluation-result6.png)
+   ![Evaluation Result](../assets/06-06-evaluation-result6.png)
 
 ### ✅ 확인 사항
 

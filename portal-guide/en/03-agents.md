@@ -63,12 +63,12 @@ Create an agent that intelligently selects models using Model Router.
    - Select **Build** from the top right menu in the Foundry portal.
    - Click the **Agents** menu.
    
-   ![Build > Agents menu](../assets/03-01-agents-menu.png)
+   ![Build > Agents menu](../../assets/03-01-agents-menu.png)
 
 2. **Create New Agent**
    - Click the **+ Create agent** or **New agent** button.
    
-   ![Create agent button](../assets/03-02-create-agent.png)
+   ![Create agent button](../../assets/03-02-create-agent.png)
 
 3. **Agent Configuration**
    ```
@@ -85,7 +85,7 @@ Create an agent that intelligently selects models using Model Router.
    
    Click the **Save** button to save.
 
-   ![Agent basic settings](../assets/03-03-agent-basic-settings.png)
+   ![Agent basic settings](../../assets/03-03-agent-basic-settings.png)
 
 4. **Test Agent**
 
@@ -108,7 +108,7 @@ Create an agent that intelligently selects models using Model Router.
    ```
    → Routes to a high-performance model for complex document generation
    
-   ![Test in Chat tab](../assets/03-05-agent-chat-test.png)
+   ![Test in Chat tab](../../assets/03-05-agent-chat-test.png)
 
 5. **Explore Additional Tabs**
 
@@ -116,13 +116,13 @@ Create an agent that intelligently selects models using Model Router.
    - View agent configuration in YAML format
    - Manageable as Infrastructure as Code
    
-   ![YAML tab screen](../assets/03-06-agent-yaml.png)
+   ![YAML tab screen](../../assets/03-06-agent-yaml.png)
    
    **Code Tab**:
    - View samples for calling agent with code
    - Supports various languages: Python, JavaScript, C#, etc.
    
-   ![Code tab screen](../assets/03-07-agent-code.png)
+   ![Code tab screen](../../assets/03-07-agent-code.png)
 
    **Traces Tab**:
    - Track agent execution process
@@ -132,19 +132,19 @@ Create an agent that intelligently selects models using Model Router.
    **Enable Tracing** requires **creating and connecting App Insights**.
    **Agent tracing** is only available in **Sweden Central** in Foundry (new).
    
-   ![Traces tab screen - Connect](../assets/03-08-agent-traces-connect.png)
+   ![Traces tab screen - Connect](../../assets/03-08-agent-traces-connect.png)
 
-   ![Traces tab screen - Create](../assets/03-08-agent-traces-create.png)
+   ![Traces tab screen - Create](../../assets/03-08-agent-traces-create.png)
 
-   ![Traces tab screen - Traces](../assets/03-08-agent-traces.png)
+   ![Traces tab screen - Traces](../../assets/03-08-agent-traces.png)
 
-   ![Traces tab screen - Traces - Details](../assets/03-08-agent-traces-details.png)
+   ![Traces tab screen - Traces - Details](../../assets/03-08-agent-traces-details.png)
 
    **Monitor Tab**:
    - Real-time metrics monitoring
    - Check error rates, response times, etc.
    
-   ![Monitor tab screen](../assets/03-09-agent-monitor.png)
+   ![Monitor tab screen](../../assets/03-09-agent-monitor.png)
 
 6. **Save Agent**
    - Click the **Save** button to save the agent.
@@ -184,7 +184,7 @@ Create an agent that finds information from uploaded documents using file search
    
    Click the **Save** button to save.
 
-   ![Create FileSearchAgent](../assets/03-10-filesearch-create.png)
+   ![Create FileSearchAgent](../../assets/03-10-filesearch-create.png)
 
 3. **Add File Search Tool**
 
@@ -193,18 +193,18 @@ Create an agent that finds information from uploaded documents using file search
    - Select the **File Search** option.
    - Verify File Search is added to Tools list.
    
-   ![Select File Search tool](../assets/03-13-filesearch-tool-selection.png)
+   ![Select File Search tool](../../assets/03-13-filesearch-tool-selection.png)
 
 4. **Upload Files**
 
    - Click the **Attach files** button in the **Tools > File Search** section.
    
-   ![Attach files button](../assets/03-14-filesearch-attach-files.png)
+   ![Attach files button](../../assets/03-14-filesearch-attach-files.png)
    
    - Upload the `knowledge-base.json` file.
    - Verify file uploaded successfully.
    
-   ![File upload complete](../assets/03-15-filesearch-file-uploaded.png)
+   ![File upload complete](../../assets/03-15-filesearch-file-uploaded.png)
 
 5. **Save Agent**
    - Click the **Save** button.
@@ -228,16 +228,16 @@ Create an agent that finds information from uploaded documents using file search
    ```
    Expected response: Jeju Jungmun Saekdal Beach
    
-   ![Test FileSearchAgent](../assets/03-16-filesearch-chat-test.png)
+   ![Test FileSearchAgent](../../assets/03-16-filesearch-chat-test.png)
 
 7. **Check Traces**
 
    - Check how File Search worked in the **Traces** tab.
    - You can view searched document chunks and relevance scores.
    
-   ![Check File Search Traces](../assets/03-17-filesearch-traces.png)
+   ![Check File Search Traces](../../assets/03-17-filesearch-traces.png)
 
-   ![Check File Search Traces](../assets/03-17-filesearch-traces-2.png)
+   ![Check File Search Traces](../../assets/03-17-filesearch-traces-2.png)
 
 ### ✅ Verification Checklist
 
@@ -272,7 +272,7 @@ Create an agent that provides up-to-date information by performing real-time web
    5. Perform additional searches if results are insufficient
    ```
    
-   ![Create WebSearchAgent](../assets/03-18-websearch-create.png)
+   ![Create WebSearchAgent](../../assets/03-18-websearch-create.png)
 
 2. **Add Web Search Tool**
 
@@ -280,7 +280,7 @@ Create an agent that provides up-to-date information by performing real-time web
    - Select the **Web search** option.
    - Verify Web Search is enabled.
    
-   ![Add Web search tool](../assets/03-20-websearch-add-tool.png)
+   ![Add Web search tool](../../assets/03-20-websearch-add-tool.png)
 
 3. **Save Agent**
    - Click the **Save** button.
@@ -304,7 +304,7 @@ Create an agent that provides up-to-date information by performing real-time web
    ```
    → Explain comparative analysis and advantages
    
-   ![Test WebSearchAgent](../assets/03-21-websearch-chat-test.png)
+   ![Test WebSearchAgent](../../assets/03-21-websearch-chat-test.png)
 
 5. **Analyze Traces**
 
@@ -314,9 +314,9 @@ Create an agent that provides up-to-date information by performing real-time web
      - Extracted information
      - Final response generation process
    
-   ![Check Web Search Traces](../assets/03-22-websearch-traces.png)
+   ![Check Web Search Traces](../../assets/03-22-websearch-traces.png)
 
-   ![Check Web Search Traces](../assets/03-22-websearch-traces-2.png)
+   ![Check Web Search Traces](../../assets/03-22-websearch-traces-2.png)
 
 ### 💡 Web Search Usage Tips
 
@@ -346,19 +346,19 @@ Learn how to deploy created agents and invoke them externally.
      - **Preview agent**: Preview agent with web interface
      - **View sample app code**: Check sample application code
    
-   ![Preview button](../assets/03-23-agent-preview-button.png)
+   ![Preview button](../../assets/03-23-agent-preview-button.png)
 
-   ![Preview](../assets/03-23-agent-preview.png)
+   ![Preview](../../assets/03-23-agent-preview.png)
 
 2. **Execute Publish**
 
    - Click the **Publish agent** button.
    
-   ![Click Publish agent button](../assets/03-24-agent-publish-agent.png)
+   ![Click Publish agent button](../../assets/03-24-agent-publish-agent.png)
 
    - Click the **Publish** button.
    
-   ![Click Publish button](../assets/03-24-agent-publish.png)
+   ![Click Publish button](../../assets/03-24-agent-publish.png)
    
    - Verify publish settings:
      ```
@@ -367,7 +367,7 @@ Learn how to deploy created agents and invoke them externally.
      Endpoint: [Auto-generated endpoint]
      ```
    
-   ![Verify publish completion](../assets/03-25-agent-published.png)
+   ![Verify publish completion](../../assets/03-25-agent-published.png)
 
 ### Invoking Agents
 
@@ -439,7 +439,7 @@ How to check endpoint information in Foundry portal:
    - Activity Protocol endpoint
    - Response API endpoint
 
-![Check Endpoint information](../assets/03-26-agent-endpoint.png)
+![Check Endpoint information](../../assets/03-26-agent-endpoint.png)
 
 #### 4. Execute
 

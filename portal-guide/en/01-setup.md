@@ -33,11 +33,11 @@ A Resource Group is a logical container that groups related Azure resources for 
 2. **Create Resource Group**
    - Search for "Resource groups" in the top search bar.
    
-   ![Search for Resource groups](../assets/01-01-resource-group-search.png)
+   ![Search for Resource groups](../../assets/01-01-resource-group-search.png)
    
    - Click the **+ Create** button.
    
-   ![Resource Group creation screen](../assets/01-02-resource-group-create.png)
+   ![Resource Group creation screen](../../assets/01-02-resource-group-create.png)
 
 3. **Enter Basic Information**
    ```
@@ -46,13 +46,13 @@ A Resource Group is a logical container that groups related Azure resources for 
    Region: Sweden Central
    ```
    
-   ![Enter basic information](../assets/01-03-resource-group-basics.png)
+   ![Enter basic information](../../assets/01-03-resource-group-basics.png)
 
 4. **Review and Create**
    - Click the **Review + create** button.
    - After validation is complete, click the **Create** button.
 
-   ![Confirm basic information](../assets/01-03-resource-group-basics-2.png)
+   ![Confirm basic information](../../assets/01-03-resource-group-basics-2.png)
 
 ### ✅ Verification Checklist
 
@@ -71,12 +71,12 @@ Microsoft Foundry is an integrated platform designed for AI application developm
    - Search for "Microsoft Foundry" in the Azure Portal top search bar.
    - Alternatively, you can directly access the [Microsoft Foundry Portal](https://ai.azure.com).
    
-   ![Search for Microsoft Foundry](../assets/01-04-foundry-search.png)
+   ![Search for Microsoft Foundry](../../assets/01-04-foundry-search.png)
 
 2. **Create New Foundry Resource & Project**
    - Click the **Create a Foundry Resource** button.
    
-   ![Select Foundry Resource](../assets/01-05-foundry-select-resource.png)
+   ![Select Foundry Resource](../../assets/01-05-foundry-select-resource.png)
 
    ```
    Resource group: foundry
@@ -90,15 +90,15 @@ Microsoft Foundry is an integrated platform designed for AI application developm
    - Review all settings and click **Create**.
    - Resource creation takes approximately 2-5 minutes.
 
-   ![Create Foundry Resource](../assets/01-06-foundry-create-resource.png)
+   ![Create Foundry Resource](../../assets/01-06-foundry-create-resource.png)
 
    - Navigate to the **Foundry Resource** overview page.
 
-   ![Foundry Resource overview](../assets/01-07-foundry-resource.png)
+   ![Foundry Resource overview](../../assets/01-07-foundry-resource.png)
 
    - Click **Go to Foundry portal**.
 
-   ![New Foundry portal home](../assets/01-08-foundry-portal.png)
+   ![New Foundry portal home](../../assets/01-08-foundry-portal.png)
 
 ### ✅ Verification Checklist
 
@@ -117,7 +117,7 @@ The new Foundry portal offers an enhanced user interface with improved usability
    - Find the **"Enable New Foundry"** or **"Try new experience"** option at the top of the portal or in the settings menu.
    - Toggle the switch to activate the new interface.
    
-   ![Enable New Foundry](../assets/01-09-foundry-new-experience.png)
+   ![Enable New Foundry](../../assets/01-09-foundry-new-experience.png)
 
 2. **Verify Interface**
    - Confirm the new portal interface loads.
@@ -126,7 +126,7 @@ The new Foundry portal offers an enhanced user interface with improved usability
      - **Build**: Develop agents, workflows, models, etc.
      - **Operate**: Manage control plane, etc.
    
-   ![Portal navigation](../assets/01-10-foundry-portal-navigation.png)
+   ![Portal navigation](../../assets/01-10-foundry-portal-navigation.png)
 
 ### ✅ Verification Checklist
 

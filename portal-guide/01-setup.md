@@ -33,11 +33,11 @@ Resource Group은 Azure 리소스를 논리적으로 그룹화하는 컨테이�
 2. **Resource Group 생성**
    - 상단 검색창에서 "Resource groups"를 검색합니다.
    
-   ![Resource groups 검색](./assets/01-01-resource-group-search.png)
+   ![Resource groups 검색](../assets/01-01-resource-group-search.png)
    
    - **+ Create** 버튼을 클릭합니다.
    
-   ![Resource Group 생성 화면](./assets/01-02-resource-group-create.png)
+   ![Resource Group 생성 화면](../assets/01-02-resource-group-create.png)
 
 3. **기본 정보 입력**
    ```
@@ -46,13 +46,13 @@ Resource Group은 Azure 리소스를 논리적으로 그룹화하는 컨테이�
    Region: Sweden Central
    ```
    
-   ![기본 정보 입력](./assets/01-03-resource-group-basics.png)
+   ![기본 정보 입력](../assets/01-03-resource-group-basics.png)
 
 4. **검토 및 생성**
    - **Review + create** 버튼을 클릭합니다.
    - 검증 완료 후 **Create** 버튼을 클릭합니다.
 
-   ![기본 정보 확인](./assets/01-03-resource-group-basics-2.png)
+   ![기본 정보 확인](../assets/01-03-resource-group-basics-2.png)
 
 ### ✅ 확인 사항
 
@@ -71,12 +71,12 @@ Microsoft Foundry는 AI 애플리케이션 개발을 위한 통합 플랫폼입�
    - Azure Portal 상단 검색창에서 "Microsoft Foundry"를 검색합니다.
    - 또는 직접 [Microsoft Foundry Portal](https://ai.azure.com)에 접속합니다.
    
-   ![Microsoft Foundry 검색](./assets/01-04-foundry-search.png)
+   ![Microsoft Foundry 검색](../assets/01-04-foundry-search.png)
 
 2. **새 Foundry 리소스 & 프로젝트 생성**
    - **Create a Foundry Resource** 버튼을 클릭합니다.
    
-   ![Foundry Resource 선택](./assets/01-05-foundry-select-resource.png)
+   ![Foundry Resource 선택](../assets/01-05-foundry-select-resource.png)
 
    ```
    Resource group: foundry
@@ -90,15 +90,15 @@ Microsoft Foundry는 AI 애플리케이션 개발을 위한 통합 플랫폼입�
    - 모든 설정을 확인한 후 **Create**를 클릭합니다.
    - 리소스 생성에는 2-5분 정도 소요됩니다.
 
-   ![Foundry Resource 생성](./assets/01-06-foundry-create-resource.png)
+   ![Foundry Resource 생성](../assets/01-06-foundry-create-resource.png)
 
    - **Foundry Resource** 개요 페이지로 이동합니다.
 
-   ![Foundry Resource 개요](./assets/01-07-foundry-resource.png)
+   ![Foundry Resource 개요](../assets/01-07-foundry-resource.png)
 
    - **Go to Foundry portal**를 클릭합니다. 
 
-   ![New Foundry portal 홈](./assets/01-08-foundry-portal.png)
+   ![New Foundry portal 홈](../assets/01-08-foundry-portal.png)
 
 ### ✅ 확인 사항
 
@@ -117,7 +117,7 @@ Microsoft Foundry는 AI 애플리케이션 개발을 위한 통합 플랫폼입�
    - 포털 상단 또는 설정 메뉴에서 **"Enable New Foundry"** 또는 **"Try new experience"** 옵션을 찾습니다.
    - 토글 스위치를 켜서 새로운 인터페이스를 활성화합니다.
    
-   ![New Foundry 활성화](./assets/01-09-foundry-new-experience.png)
+   ![New Foundry 활성화](../assets/01-09-foundry-new-experience.png)
 
 2. **인터페이스 확인**
    - 새로운 포털 인터페이스가 로드되는지 확인합니다.
@@ -126,7 +126,7 @@ Microsoft Foundry는 AI 애플리케이션 개발을 위한 통합 플랫폼입�
      - **Build**: 에이전트, 워크플로우, 모델 등 개발
      - **Operate**: 컨트롤 플레인 등 관리
    
-   ![포털 네비게이션](./assets/01-10-foundry-portal-navigation.png)
+   ![포털 네비게이션](../assets/01-10-foundry-portal-navigation.png)
 
 ### ✅ 확인 사항
 

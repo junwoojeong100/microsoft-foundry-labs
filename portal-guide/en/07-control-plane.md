@@ -72,9 +72,9 @@ Fleet Overview is a dashboard for viewing the status of all deployed AI resource
 
    - Select **Operate** from the top right menu in Foundry portal.
    
-   ![Fleet Overview dashboard](../assets/07-02-fleet-overview.png)
+   ![Fleet Overview dashboard](../../assets/07-02-fleet-overview.png)
 
-   ![Fleet Overview dashboard](../assets/07-02-fleet-overview2.png)
+   ![Fleet Overview dashboard](../../assets/07-02-fleet-overview2.png)
 
 ### Key Metrics
 
@@ -230,7 +230,7 @@ AI Gateway activation required:
 
    - Click the **Register agent** button on Fleet Overview page.
    
-   ![Register agent screen](../assets/07-08-register-agent.png)
+   ![Register agent screen](../../assets/07-08-register-agent.png)
 
 3. **Enter Agent Information**
 
@@ -308,7 +308,7 @@ Manage all AI resources in the Assets section.
 
 View detailed information about all deployed agents.
 
-![Assets > Agents list](../assets/07-10-assets-agents.png)
+![Assets > Agents list](../../assets/07-10-assets-agents.png)
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -337,7 +337,7 @@ View detailed information about all deployed agents.
 
 Check status and usage of all deployed models.
 
-![Assets > Models list](../assets/07-11-assets-models.png)
+![Assets > Models list](../../assets/07-11-assets-models.png)
 
 ```
 ┌───────────────────────────────────────────────────────────────────────────┐
@@ -369,7 +369,7 @@ Cost per 1M tokens:
 
 Manage connected tools and MCP servers.
 
-![Assets > Tools list](../assets/07-12-assets-tools.png)
+![Assets > Tools list](../../assets/07-12-assets-tools.png)
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
@@ -396,7 +396,7 @@ Manage connected tools and MCP servers.
 
 Manage organizational AI usage policies.
 
-![Active Policies list](../assets/07-14-compliance-policies.png)
+![Active Policies list](../../assets/07-14-compliance-policies.png)
 
 ```
 ┌────────────────────────────────────────────────────────────┐
@@ -453,7 +453,7 @@ Action: Filter and replace
 
 Configure safeguards per model deployment.
 
-![Guardrails configuration](../assets/07-15-guardrails-config.png)
+![Guardrails configuration](../../assets/07-15-guardrails-config.png)
 
 ```
 ┌────────────────────────────────────────────────────────────┐
@@ -492,7 +492,7 @@ test_input = "This is [blocked word]"
 
 Evaluate and improve security status.
 
-![Security Posture score](../assets/07-16-security-posture.png)
+![Security Posture score](../../assets/07-16-security-posture.png)
 
 ```
 ┌────────────────────────────────────────────────────────────┐
@@ -522,7 +522,7 @@ Overall Security Score: 85/100 ✓
 
 Manage request limits per model.
 
-![Token Per Minute Quota](../assets/07-17-quota-tpm.png)
+![Token Per Minute Quota](../../assets/07-17-quota-tpm.png)
 
 ```
 ┌───────────────────────────────────────────────────────────────────┐
@@ -566,7 +566,7 @@ Retry-After: 30 seconds
 
 Manage PTU for fixed capacity.
 
-![PTU (Provisioning Throughput Units)](../assets/07-19-quota-ptu.png)
+![PTU (Provisioning Throughput Units)](../../assets/07-19-quota-ptu.png)
 
 ```
 ┌────────────────────────────────────────────────────────────┐
@@ -596,7 +596,7 @@ PTU Recommended Scenarios:
 
 Manage all Foundry projects within organization.
 
-![All Projects list](../assets/07-20-admin-projects.png)
+![All Projects list](../../assets/07-20-admin-projects.png)
 
 **Project Lifecycle**:
 ```
@@ -613,9 +613,9 @@ Environment-specific configuration:
 
 Configure centralized API Gateway.
 
-![AI Gateway configuration](../assets/07-21-ai-gateway1.png)
+![AI Gateway configuration](../../assets/07-21-ai-gateway1.png)
 
-![AI Gateway configuration](../assets/07-21-ai-gateway2.png)
+![AI Gateway configuration](../../assets/07-21-ai-gateway2.png)
 
 ```
 ┌────────────────────────────────────────────────────────────┐

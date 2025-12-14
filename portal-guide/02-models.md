@@ -33,11 +33,11 @@ Foundry 포털의 Discover 섹션에서 다양한 AI 모델을 탐색할 수 있
 1. **Discover 섹션 이동**
    - Foundry 포털 우측 상단 메뉴에서 **Discover**를 클릭합니다.
 
-   ![Discover > Models 메뉴](./assets/02-00-discover-overview.png)
+   ![Discover > Models 메뉴](../assets/02-00-discover-overview.png)
 
    - **Models** 메뉴를 선택합니다.
    
-   ![Discover > Models 메뉴](./assets/02-01-discover-models.png)
+   ![Discover > Models 메뉴](../assets/02-01-discover-models.png)
 
 2. **모델 리더보드 확인**
    - **View leaderboard** 옵션을 클릭합니다.
@@ -48,7 +48,7 @@ Foundry 포털의 Discover 섹션에서 다양한 AI 모델을 탐색할 수 있
      - Context window
      - Modality support (text, vision, audio)
    
-   ![Model Leaderboard 화면](./assets/02-02-model-leaderboard.png)
+   ![Model Leaderboard 화면](../assets/02-02-model-leaderboard.png)
 
 3. **모델 카테고리 이해**
    - **Language Models**: GPT-5.1, GPT-5, Claude 등
@@ -70,18 +70,18 @@ Foundry 포털의 Discover 섹션에서 다양한 AI 모델을 탐색할 수 있
    - 비교하고 싶은 모델들을 선택합니다 (예: GPT-5.1, GPT-5, Claude 4.5 Sonnet).
    - 성능, 비용, 기능을 비교합니다.
    
-   ![Compare models 기능](./assets/02-03-model-compare.png)
+   ![Compare models 기능](../assets/02-03-model-compare.png)
 
 2. **GPT-5.1 선택 및 배포**
    - 모델 목록에서 **gpt-5.1** 을 찾습니다.
    - 모델 카드를 클릭하여 상세 정보를 확인합니다.
    
-   ![GPT-5.1 모델 카드](./assets/02-04-gpt51-model-card.png)
+   ![GPT-5.1 모델 카드](../assets/02-04-gpt51-model-card.png)
 
 3. **배포 설정**
    - **Deploy** 버튼을 클릭합니다.
    
-   ![Deploy 버튼](./assets/02-05-gpt51-deploy-button.png)
+   ![Deploy 버튼](../assets/02-05-gpt51-deploy-button.png)
 
 4. **배포 완료**
    - **Default settings**를 클릭하여 배포를 시작합니다.
@@ -93,7 +93,7 @@ Foundry 포털의 Discover 섹션에서 다양한 AI 모델을 탐색할 수 있
 - 배포 상태가 "Succeeded"인지 확인
 - Endpoint URL이 생성되었는지 확인
 
-![Build > Models에서 배포된 gpt-5.1 확인](./assets/02-07-gpt51-deployed.png)
+![Build > Models에서 배포된 gpt-5.1 확인](../assets/02-07-gpt51-deployed.png)
 
 ---
 
@@ -107,14 +107,14 @@ Embedding 모델은 텍스트를 벡터로 변환하여 의미적 검색 및 유
    - Discover > Models 페이지에서 검색창에 **"text-embedding"**을 입력합니다.
    - 필터를 사용하여 Embedding 모델만 표시할 수 있습니다.
    
-   ![text-embedding 검색](./assets/02-08-embedding-search.png)
+   ![text-embedding 검색](../assets/02-08-embedding-search.png)
 
 2. **text-embedding-3-large 선택**
    - **text-embedding-3-large** 모델을 선택합니다.
    - 모델 상세 정보 확인:
      - Dimensions: 3072
    
-   ![text-embedding-3-large 모델 카드](./assets/02-09-embedding-model-card.png)
+   ![text-embedding-3-large 모델 카드](../assets/02-09-embedding-model-card.png)
 
 3. **배포 설정**
    ```
@@ -126,7 +126,7 @@ Embedding 모델은 텍스트를 벡터로 변환하여 의미적 검색 및 유
 4. **배포 실행**
    - **Deploy** 버튼을 클릭하여 배포합니다.
    
-   ![배포 완료 확인](./assets/02-10-embedding-deployed.png)
+   ![배포 완료 확인](../assets/02-10-embedding-deployed.png)
 
 ---
 
@@ -139,7 +139,7 @@ Model Router는 여러 모델 간의 지능형 라우팅을 제공하여 비용,
 1. **Model Router 검색**
    - Discover > Models에서 **"model-router"**를 검색합니다.
    
-   ![model-router 검색](./assets/02-11-model-router-search.png)
+   ![model-router 검색](../assets/02-11-model-router-search.png)
 
 2. **Model Router 정보 확인**
    - Model Router의 주요 기능:
@@ -155,7 +155,7 @@ Model Router는 여러 모델 간의 지능형 라우팅을 제공하여 비용,
    Included models: [사용 가능한 모델 자동 감지]
    ```
    
-   ![Model Router 배포 설정](./assets/02-12-model-router-deploy.png)
+   ![Model Router 배포 설정](../assets/02-12-model-router-deploy.png)
 
 4. **배포 완료**
    - **Deploy** 버튼을 클릭합니다.
@@ -167,7 +167,7 @@ Model Router는 여러 모델 간의 지능형 라우팅을 제공하여 비용,
 - 배포 상태 확인
 - Router가 접근 가능한 모델 목록 확인
 
-![Build > Models 전체 배포 목록](./assets/02-15-models-overview.png)
+![Build > Models 전체 배포 목록](../assets/02-15-models-overview.png)
 
 ---
 
@@ -185,13 +185,13 @@ Model Router의 라우팅 전략을 설정하여 애플리케이션 요구사항
    - **Details** 탭을 선택합니다.
    - **Edit** 버튼을 클릭합니다.
    
-   ![Model Router 설정 화면 (Edit 모드)](./assets/02-13-model-router-config.png)
+   ![Model Router 설정 화면 (Edit 모드)](../assets/02-13-model-router-config.png)
 
 3. **Model Router Configuration 설정**
    
    #### Routing Mode 옵션:
    
-   ![Routing Mode 옵션](./assets/02-14-model-router-modes.png)
+   ![Routing Mode 옵션](../assets/02-14-model-router-modes.png)
    
    **a) Balanced Mode (균형 모드)**
    ```

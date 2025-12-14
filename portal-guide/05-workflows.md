@@ -166,22 +166,22 @@ Instructions:
    - Foundry 포털 우측 상단 메뉴에서 **Build**를 선택합니다.
    - **Workflows** 메뉴를 클릭합니다.
    
-   ![Build > Workflows 메뉴](./assets/05-01-workflows-menu.png)
+   ![Build > Workflows 메뉴](../assets/05-01-workflows-menu.png)
 
 2. **새 워크플로우 생성**
 
    - **+ Create workflow** 또는 **New workflow** 버튼을 클릭합니다.
    - **Sequential Workflow**를 선택합니다.
    
-   ![Create workflow 버튼](./assets/05-02-create-workflow.png)
+   ![Create workflow 버튼](../assets/05-02-create-workflow.png)
 
-   ![Create workflow 버튼2](./assets/05-02-create-workflow-2.png)
+   ![Create workflow 버튼2](../assets/05-02-create-workflow-2.png)
 
 3. **에이전트 추가**
 
    순서대로 에이전트를 추가합니다:
    
-   ![Select an agent to invoke 버튼](./assets/05-04-workflow-add-agent.png)
+   ![Select an agent to invoke 버튼](../assets/05-04-workflow-add-agent.png)
 
    ```
    Step 1: TravelPlannerAgent
@@ -193,21 +193,21 @@ Instructions:
 
    - 각 단계에서 **Select an agent to invoke** 버튼을 클릭하여 에이전트를 선택합니다.
 
-   ![Select an agent to invoke 버튼1](./assets/05-04-workflow-add-agent1.png)
+   ![Select an agent to invoke 버튼1](../assets/05-04-workflow-add-agent1.png)
    
-   ![Select an agent to invoke 버튼2](./assets/05-04-workflow-add-agent2.png)
+   ![Select an agent to invoke 버튼2](../assets/05-04-workflow-add-agent2.png)
 
-   ![Select an agent to invoke 버튼3](./assets/05-04-workflow-add-agent3.png)
+   ![Select an agent to invoke 버튼3](../assets/05-04-workflow-add-agent3.png)
 
-   ![전체 workflow](./assets/05-02-overall-workflow.png)
+   ![전체 workflow](../assets/05-02-overall-workflow.png)
 
 4. **워크플로우 저장**
 
    - **Save** 버튼을 클릭합니다.
 
-   ![Workflow 이름 등록](./assets/05-02-workflow-save.png)
+   ![Workflow 이름 등록](../assets/05-02-workflow-save.png)
 
-   ![Workflow 이름 저장](./assets/05-02-workflow-saved.png)
+   ![Workflow 이름 저장](../assets/05-02-workflow-saved.png)
 
 ### 워크플로우 테스트
 
@@ -229,7 +229,7 @@ Instructions:
    - **Step 2 (LocalAgent)**: 현지 정보 추가 (날씨, 교통, 이벤트)
    - **Step 3 (TravelSummaryAgent)**: 최종 요약 및 체크리스트
 
-   ![Workflow Preview](./assets/05-05-workflow-preview.png)
+   ![Workflow Preview](../assets/05-05-workflow-preview.png)
 
 4. **Traces 확인**
 
@@ -243,13 +243,13 @@ Instructions:
 
    - **Publish** 버튼을 클릭합니다.
 
-   ![Workflow Publish-1](./assets/05-05-workflow-publish1.png)
+   ![Workflow Publish-1](../assets/05-05-workflow-publish1.png)
 
    - 버전을 확인하고 게시합니다.
 
-   ![Workflow Publish-2](./assets/05-05-workflow-publish2.png)
+   ![Workflow Publish-2](../assets/05-05-workflow-publish2.png)
 
-   ![Workflow Publish-3](./assets/05-05-workflow-publish3.png)
+   ![Workflow Publish-3](../assets/05-05-workflow-publish3.png)
 
 2. **Python SDK로 호출**
 
@@ -396,7 +396,7 @@ Instructions:
    - Workflows 섹션에서 **+ Create workflow** 버튼을 클릭합니다.
    - **Group Chat Workflow**를 선택합니다.
    
-   ![Group Chat Workflow 생성](./assets/05-09-group-chat-create.png)
+   ![Group Chat Workflow 생성](../assets/05-09-group-chat-create.png)
 
 
 2. **에이전트 추가**
@@ -410,7 +410,7 @@ Instructions:
    Max turns: 4 (무한 루프 방지)
    ```
 
-   ![여러 에이전트 추가](./assets/05-10-group-chat-agents.png)
+   ![여러 에이전트 추가](../assets/05-10-group-chat-agents.png)
 
 3. **대화 흐름 설정**
 
@@ -426,9 +426,9 @@ Instructions:
 
    - **Save** 버튼을 클릭합니다.
    
-   ![Group Chat Workflow 저장](./assets/05-09-group-chat-save.png)
+   ![Group Chat Workflow 저장](../assets/05-09-group-chat-save.png)
       
-   ![Group Chat Workflow 저장완료](./assets/05-09-group-chat-saved.png)
+   ![Group Chat Workflow 저장완료](../assets/05-09-group-chat-saved.png)
 
 ### 워크플로우 테스트
 
@@ -436,7 +436,7 @@ Instructions:
 
    - **Preview** 버튼을 클릭합니다.
 
-   ![Group Chat Workflow Preview](./assets/05-09-group-chat-preview.png)
+   ![Group Chat Workflow Preview](../assets/05-09-group-chat-preview.png)
 
 2. **테스트 질문**
 
@@ -569,7 +569,7 @@ Human-in-loop는 다음 상황에서 유용합니다:
    TravelSummaryAgent: 최종 요약
    ```
 
-   ![Human-in-Loop Workflow Preview](./assets/05-10-human-in-loop-workflow-preview.png)
+   ![Human-in-Loop Workflow Preview](../assets/05-10-human-in-loop-workflow-preview.png)
 
 ### 💡 Human-in-loop 모범 사례
 

@@ -1,3 +1,5 @@
 .venv/
 .DS_Store
 __pycache__/
+.foundry_config.json
+temp_data/
